@@ -8,7 +8,7 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { SearchComponent } from './search/search.component';
 import { CandidateDetailsComponent } from './candidate-details/candidate-details.component';
-import { routing } from './app.routing';
+// import { routing } from './app.routing';
 
 @NgModule({
   declarations: [
@@ -21,8 +21,8 @@ import { routing } from './app.routing';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule,
-    routing
+    HttpModule
+    // routing
   ],
   providers: [],
   bootstrap: [AppComponent]
