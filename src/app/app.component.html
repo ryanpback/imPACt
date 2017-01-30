@@ -1,4 +1,26 @@
-<div *ngFor="let d of data">
-  <h3>{{d?.Candidate.Candidate}}</h3>
-  <p>{{d?.General_Party.General_Party}}, {{d?.Election_Year.Election_Year}}</p>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <p (click)="getComponent('home')"class="navbar-brand">imPACt</p>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li (click)="getComponent('search')">Search</li>
+      <li (click)="getComponent('about')">About</li>
+    </ul>
+  </div>
+</nav>
+<h1 class="text-center">{{title}}</h1>
+<!-- <router-outlet></router-outlet> -->
+
+<div *ngIf="displayedComponent === 'home'">
+  <app-home></app-home>
+</div>
+
+<div *ngIf="displayedComponent === 'about'">
+  <app-about></app-about>
+</div>
+
+<div *ngIf="displayedComponent === 'search'">
+  <app-search></app-search>
+>>>>>>> 8fb904eda9e603881444d7336b1bec7562bdee42
 </div>

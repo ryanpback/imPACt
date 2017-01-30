@@ -12,7 +12,6 @@ import 'rxjs/add/operator/map';
 export class AppComponent implements OnInit {
   data: Observable<any[]>;
   state: string = "OR";
-  apiKey: string = "ad4ec64891c87fb4e5410a42ef340816";
   url: string = "http://api.followthemoney.org/?s=" + this.state + "&y=2016&c-exi=1&gro=c-t-id&APIKey=" + this.apiKey + "&mode=json";
 
    constructor (private http: Http) {}
@@ -25,5 +24,10 @@ export class AppComponent implements OnInit {
     let body = res.json();
     console.log(body)
     return body.records || { };
+  }
+  title = 'imPACt';
+  displayedComponent = 'home'
+  getComponent(component) {
+    this.displayedComponent = component;
   }
 }
