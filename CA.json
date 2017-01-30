@@ -1,0 +1,6002 @@
+{"records": [
+    {
+      "record_id": 1,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=211497",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "211497",
+        "Candidate": "HARRIS, KAMALA D"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "40620386",
+        "Candidate_Entity": "HARRIS, KAMALA D"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "14929",
+        "Office_Sought": "US SENATE DISTRICT CA SW-CLASS III"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "17570"
+      },
+      "Total": {
+        "Total": "14012103.18"
+      }
+    },
+    {
+      "record_id": 2,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202189",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202189",
+        "Candidate": "MCCARTHY, KEVIN"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "331199",
+        "Candidate_Entity": "MCCARTHY, KEVIN"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15018",
+        "Office_Sought": "US HOUSE DISTRICT CA 023"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "3054"
+      },
+      "Total": {
+        "Total": "9683847.28"
+      }
+    },
+    {
+      "record_id": 3,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202083",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202083",
+        "Candidate": "SANCHEZ, LORETTA L"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "793908",
+        "Candidate_Entity": "SANCHEZ, LORETTA L"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "14929",
+        "Office_Sought": "US SENATE DISTRICT CA SW-CLASS III"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "3061"
+      },
+      "Total": {
+        "Total": "4981616.68"
+      }
+    },
+    {
+      "record_id": 4,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202249",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202249",
+        "Candidate": "ROYCE SR, EDWARD D"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "390709",
+        "Candidate_Entity": "ROYCE SR, EDWARD D"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15034",
+        "Office_Sought": "US HOUSE DISTRICT CA 039"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "3086"
+      },
+      "Total": {
+        "Total": "4517092.10"
+      }
+    },
+    {
+      "record_id": 5,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202155",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202155",
+        "Candidate": "PELOSI, NANCY"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "2022063",
+        "Candidate_Entity": "PELOSI, NANCY"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15007",
+        "Office_Sought": "US HOUSE DISTRICT CA 012"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "15887"
+      },
+      "Total": {
+        "Total": "4214029.91"
+      }
+    },
+    {
+      "record_id": 6,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202138",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202138",
+        "Candidate": "BERA, AMERISH B (AMI)"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "12556998",
+        "Candidate_Entity": "BERA, AMERISH B (AMI)"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15002",
+        "Office_Sought": "US HOUSE DISTRICT CA 007"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "9672"
+      },
+      "Total": {
+        "Total": "4083204.17"
+      }
+    },
+    {
+      "record_id": 7,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202167",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202167",
+        "Candidate": "KHANNA, ROHIT"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "373494",
+        "Candidate_Entity": "KHANNA, ROHIT"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15012",
+        "Office_Sought": "US HOUSE DISTRICT CA 017"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "C",
+        "Incumbency_Status": "Challenger"
+      },
+      "number_of_Records": {
+        "number_of_Records": "2086"
+      },
+      "Total": {
+        "Total": "3635766.31"
+      }
+    },
+    {
+      "record_id": 8,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202301",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202301",
+        "Candidate": "PETERS, SCOTT"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "14148706",
+        "Candidate_Entity": "PETERS, SCOTT"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15047",
+        "Office_Sought": "US HOUSE DISTRICT CA 052"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "10625"
+      },
+      "Total": {
+        "Total": "3480718.38"
+      }
+    },
+    {
+      "record_id": 9,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202567",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202567",
+        "Candidate": "MURATSUCHI, AL"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "11022814",
+        "Candidate_Entity": "MURATSUCHI, AL"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "655",
+        "Office_Sought": "ASSEMBLY DISTRICT 066"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "C",
+        "Incumbency_Status": "Challenger"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1057"
+      },
+      "Total": {
+        "Total": "3374750.42"
+      }
+    },
+    {
+      "record_id": 10,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202151",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202151",
+        "Candidate": "DENHAM, JEFFREY"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "13008566",
+        "Candidate_Entity": "DENHAM, JEFFREY"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15005",
+        "Office_Sought": "US HOUSE DISTRICT CA 010"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "2182"
+      },
+      "Total": {
+        "Total": "3354569.26"
+      }
+    },
+    {
+      "record_id": 11,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202564",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202564",
+        "Candidate": "QUIRK-SILVA, SHARON DARLENE"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "11022813",
+        "Candidate_Entity": "QUIRK-SILVA, SHARON DARLENE"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "654",
+        "Office_Sought": "ASSEMBLY DISTRICT 065"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "C",
+        "Incumbency_Status": "Challenger"
+      },
+      "number_of_Records": {
+        "number_of_Records": "908"
+      },
+      "Total": {
+        "Total": "3309038.49"
+      }
+    },
+    {
+      "record_id": 12,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202205",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202205",
+        "Candidate": "BROWNLEY, JULIA"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "1256839",
+        "Candidate_Entity": "BROWNLEY, JULIA"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15021",
+        "Office_Sought": "US HOUSE DISTRICT CA 026"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "17695"
+      },
+      "Total": {
+        "Total": "3268442.68"
+      }
+    },
+    {
+      "record_id": 13,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202428",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202428",
+        "Candidate": "BAKER, CATHARINE"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "23421184",
+        "Candidate_Entity": "BAKER, CATHARINE"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "605",
+        "Office_Sought": "ASSEMBLY DISTRICT 016"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "2461"
+      },
+      "Total": {
+        "Total": "3203627.31"
+      }
+    },
+    {
+      "record_id": 14,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202166",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202166",
+        "Candidate": "HONDA, MICHAEL M (MIKE)"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "2053195",
+        "Candidate_Entity": "HONDA, MICHAEL M (MIKE)"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15012",
+        "Office_Sought": "US HOUSE DISTRICT CA 017"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "4629"
+      },
+      "Total": {
+        "Total": "3145836.69"
+      }
+    },
+    {
+      "record_id": 15,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202239",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202239",
+        "Candidate": "RUIZ, RAUL"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "17657757",
+        "Candidate_Entity": "RUIZ, RAUL"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15031",
+        "Office_Sought": "US HOUSE DISTRICT CA 036"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "9253"
+      },
+      "Total": {
+        "Total": "3145130.63"
+      }
+    },
+    {
+      "record_id": 16,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202192",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202192",
+        "Candidate": "CARBAJAL, SALUD"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "39707235",
+        "Candidate_Entity": "CARBAJAL, SALUD"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15019",
+        "Office_Sought": "US HOUSE DISTRICT CA 024"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "3477"
+      },
+      "Total": {
+        "Total": "3097088.61"
+      }
+    },
+    {
+      "record_id": 17,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202352",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202352",
+        "Candidate": "PORTANTINO, ANTHONY"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "22560",
+        "Candidate_Entity": "PORTANTINO, ANTHONY"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "694",
+        "Office_Sought": "SENATE DISTRICT 025"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "2994"
+      },
+      "Total": {
+        "Total": "2966545.06"
+      }
+    },
+    {
+      "record_id": 18,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202225",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202225",
+        "Candidate": "AGUILAR, PETE"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "17657748",
+        "Candidate_Entity": "AGUILAR, PETE"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15026",
+        "Office_Sought": "US HOUSE DISTRICT CA 031"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "10290"
+      },
+      "Total": {
+        "Total": "2890246.48"
+      }
+    },
+    {
+      "record_id": 19,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202358",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202358",
+        "Candidate": "STERN, HENRY"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "39707348",
+        "Candidate_Entity": "STERN, HENRY"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "696",
+        "Office_Sought": "SENATE DISTRICT 027"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "2093"
+      },
+      "Total": {
+        "Total": "2733340.09"
+      }
+    },
+    {
+      "record_id": 20,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202290",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202290",
+        "Candidate": "ISSA, DARRELL E"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "61054",
+        "Candidate_Entity": "ISSA, DARRELL E"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15044",
+        "Office_Sought": "US HOUSE DISTRICT CA 049"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1909"
+      },
+      "Total": {
+        "Total": "2646533.74"
+      }
+    },
+    {
+      "record_id": 21,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202568",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202568",
+        "Candidate": "HADLEY, DAVID F"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "23421309",
+        "Candidate_Entity": "HADLEY, DAVID F"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "655",
+        "Office_Sought": "ASSEMBLY DISTRICT 066"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1698"
+      },
+      "Total": {
+        "Total": "2625595.14"
+      }
+    },
+    {
+      "record_id": 22,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202363",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202363",
+        "Candidate": "CHANG, LING LING"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "594598",
+        "Candidate_Entity": "CHANG, LING LING"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "698",
+        "Office_Sought": "SENATE DISTRICT 029"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "852"
+      },
+      "Total": {
+        "Total": "2589253.49"
+      }
+    },
+    {
+      "record_id": 23,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202560",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202560",
+        "Candidate": "RENDON, ANTHONY"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "11022811",
+        "Candidate_Entity": "RENDON, ANTHONY"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "652",
+        "Office_Sought": "ASSEMBLY DISTRICT 063"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1303"
+      },
+      "Total": {
+        "Total": "2562497.56"
+      }
+    },
+    {
+      "record_id": 24,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202565",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202565",
+        "Candidate": "KIM, YOUNG"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "22215539",
+        "Candidate_Entity": "KIM, YOUNG"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "654",
+        "Office_Sought": "ASSEMBLY DISTRICT 065"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1481"
+      },
+      "Total": {
+        "Total": "2532541.75"
+      }
+    },
+    {
+      "record_id": 25,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202329",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202329",
+        "Candidate": "WIENER, SCOTT"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "32203683",
+        "Candidate_Entity": "WIENER, SCOTT"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "680",
+        "Office_Sought": "SENATE DISTRICT 011"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "3280"
+      },
+      "Total": {
+        "Total": "2526588.15"
+      }
+    },
+    {
+      "record_id": 26,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202184",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202184",
+        "Candidate": "VALADAO, DAVID"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "13008587",
+        "Candidate_Entity": "VALADAO, DAVID"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15016",
+        "Office_Sought": "US HOUSE DISTRICT CA 021"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "2124"
+      },
+      "Total": {
+        "Total": "2470342.76"
+      }
+    },
+    {
+      "record_id": 27,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202502",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202502",
+        "Candidate": "MEDINA, ABIGAIL"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "39707445",
+        "Candidate_Entity": "MEDINA, ABIGAIL"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "629",
+        "Office_Sought": "ASSEMBLY DISTRICT 040"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "C",
+        "Incumbency_Status": "Challenger"
+      },
+      "number_of_Records": {
+        "number_of_Records": "554"
+      },
+      "Total": {
+        "Total": "2459793.25"
+      }
+    },
+    {
+      "record_id": 28,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202427",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202427",
+        "Candidate": "COOK-KALLIO, CHERYL"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "39707397",
+        "Candidate_Entity": "COOK-KALLIO, CHERYL"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "605",
+        "Office_Sought": "ASSEMBLY DISTRICT 016"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "C",
+        "Incumbency_Status": "Challenger"
+      },
+      "number_of_Records": {
+        "number_of_Records": "625"
+      },
+      "Total": {
+        "Total": "2420940.83"
+      }
+    },
+    {
+      "record_id": 29,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202187",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202187",
+        "Candidate": "NUNES, DEVIN G"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "2429326",
+        "Candidate_Entity": "NUNES, DEVIN G"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15017",
+        "Office_Sought": "US HOUSE DISTRICT CA 022"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1413"
+      },
+      "Total": {
+        "Total": "2382995.09"
+      }
+    },
+    {
+      "record_id": 30,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202197",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202197",
+        "Candidate": "FAREED, JUSTIN DONALD"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "23420976",
+        "Candidate_Entity": "FAREED, JUSTIN DONALD"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15019",
+        "Office_Sought": "US HOUSE DISTRICT CA 024"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1673"
+      },
+      "Total": {
+        "Total": "2315881.24"
+      }
+    },
+    {
+      "record_id": 31,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202318",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202318",
+        "Candidate": "GALGIANI, CATHLEEN"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "358943",
+        "Candidate_Entity": "GALGIANI, CATHLEEN"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "674",
+        "Office_Sought": "SENATE DISTRICT 005"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1435"
+      },
+      "Total": {
+        "Total": "2271323.25"
+      }
+    },
+    {
+      "record_id": 32,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202373",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202373",
+        "Candidate": "ATKINS, TONI"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "145632",
+        "Candidate_Entity": "ATKINS, TONI"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "708",
+        "Office_Sought": "SENATE DISTRICT 039"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1478"
+      },
+      "Total": {
+        "Total": "2246699.76"
+      }
+    },
+    {
+      "record_id": 33,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202503",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202503",
+        "Candidate": "STEINORTH, MARC"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "15368808",
+        "Candidate_Entity": "STEINORTH, MARC"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "629",
+        "Office_Sought": "ASSEMBLY DISTRICT 040"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "825"
+      },
+      "Total": {
+        "Total": "2168633.99"
+      }
+    },
+    {
+      "record_id": 34,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202324",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202324",
+        "Candidate": "SKINNER, NANCY"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "81851",
+        "Candidate_Entity": "SKINNER, NANCY"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "678",
+        "Office_Sought": "SENATE DISTRICT 009"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "3163"
+      },
+      "Total": {
+        "Total": "2142571.70"
+      }
+    },
+    {
+      "record_id": 35,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202345",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202345",
+        "Candidate": "WILK, SCOTT"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "11023296",
+        "Candidate_Entity": "WILK, SCOTT"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "690",
+        "Office_Sought": "SENATE DISTRICT 021"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "770"
+      },
+      "Total": {
+        "Total": "2047559.73"
+      }
+    },
+    {
+      "record_id": 36,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202289",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202289",
+        "Candidate": "APPLEGATE, DOUG"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "39707300",
+        "Candidate_Entity": "APPLEGATE, DOUG"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15044",
+        "Office_Sought": "US HOUSE DISTRICT CA 049"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "C",
+        "Incumbency_Status": "Challenger"
+      },
+      "number_of_Records": {
+        "number_of_Records": "2676"
+      },
+      "Total": {
+        "Total": "2035323.39"
+      }
+    },
+    {
+      "record_id": 37,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202233",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202233",
+        "Candidate": "LIEU, TED W"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "2451821",
+        "Candidate_Entity": "LIEU, TED W"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15028",
+        "Office_Sought": "US HOUSE DISTRICT CA 033"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1793"
+      },
+      "Total": {
+        "Total": "2029605.52"
+      }
+    },
+    {
+      "record_id": 38,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202131",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202131",
+        "Candidate": "THOMPSON, MIKE"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "1952480",
+        "Candidate_Entity": "THOMPSON, MIKE"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15000",
+        "Office_Sought": "US HOUSE DISTRICT CA 005"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "2138"
+      },
+      "Total": {
+        "Total": "1999787.03"
+      }
+    },
+    {
+      "record_id": 39,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202274",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202274",
+        "Candidate": "WALTERS, MIMI"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "13008846",
+        "Candidate_Entity": "WALTERS, MIMI"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15040",
+        "Office_Sought": "US HOUSE DISTRICT CA 045"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1103"
+      },
+      "Total": {
+        "Total": "1967223.64"
+      }
+    },
+    {
+      "record_id": 40,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202314",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202314",
+        "Candidate": "DODD, BILL"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "18694309",
+        "Candidate_Entity": "DODD, BILL"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "672",
+        "Office_Sought": "SENATE DISTRICT 003"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1607"
+      },
+      "Total": {
+        "Total": "1934244.79"
+      }
+    },
+    {
+      "record_id": 41,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202162",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202162",
+        "Candidate": "SWALWELL, ERIC"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "17657717",
+        "Candidate_Entity": "SWALWELL, ERIC"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15010",
+        "Office_Sought": "US HOUSE DISTRICT CA 015"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "2744"
+      },
+      "Total": {
+        "Total": "1910830.24"
+      }
+    },
+    {
+      "record_id": 42,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202235",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202235",
+        "Candidate": "BECERRA, XAVIER"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "16562595",
+        "Candidate_Entity": "BECERRA, XAVIER"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15029",
+        "Office_Sought": "US HOUSE DISTRICT CA 034"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1183"
+      },
+      "Total": {
+        "Total": "1876993.12"
+      }
+    },
+    {
+      "record_id": 43,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202261",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202261",
+        "Candidate": "BARRAGAN, NANETTE DIAZ"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "39707282",
+        "Candidate_Entity": "BARRAGAN, NANETTE DIAZ"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15039",
+        "Office_Sought": "US HOUSE DISTRICT CA 044"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "2853"
+      },
+      "Total": {
+        "Total": "1863891.79"
+      }
+    },
+    {
+      "record_id": 44,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202431",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202431",
+        "Candidate": "BONTA, ROB"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "13008519",
+        "Candidate_Entity": "BONTA, ROB"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "607",
+        "Office_Sought": "ASSEMBLY DISTRICT 018"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1545"
+      },
+      "Total": {
+        "Total": "1785478.34"
+      }
+    },
+    {
+      "record_id": 45,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202482",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202482",
+        "Candidate": "ORTIZ-LEGG, DAWN"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "39707427",
+        "Candidate_Entity": "ORTIZ-LEGG, DAWN"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "624",
+        "Office_Sought": "ASSEMBLY DISTRICT 035"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "540"
+      },
+      "Total": {
+        "Total": "1744624.88"
+      }
+    },
+    {
+      "record_id": 46,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202163",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202163",
+        "Candidate": "COSTA, JIM"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "732074",
+        "Candidate_Entity": "COSTA, JIM"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15011",
+        "Office_Sought": "US HOUSE DISTRICT CA 016"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1300"
+      },
+      "Total": {
+        "Total": "1741036.68"
+      }
+    },
+    {
+      "record_id": 47,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202203",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202203",
+        "Candidate": "KNIGHT, STEVE"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "13008615",
+        "Candidate_Entity": "KNIGHT, STEVE"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15020",
+        "Office_Sought": "US HOUSE DISTRICT CA 025"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1502"
+      },
+      "Total": {
+        "Total": "1716849.73"
+      }
+    },
+    {
+      "record_id": 48,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202334",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202334",
+        "Candidate": "BEALL, JIM"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "776647",
+        "Candidate_Entity": "BEALL, JIM"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "684",
+        "Office_Sought": "SENATE DISTRICT 015"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1193"
+      },
+      "Total": {
+        "Total": "1715931.12"
+      }
+    },
+    {
+      "record_id": 49,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202215",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202215",
+        "Candidate": "CARDENAS, TONY"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "17657742",
+        "Candidate_Entity": "CARDENAS, TONY"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15024",
+        "Office_Sought": "US HOUSE DISTRICT CA 029"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1216"
+      },
+      "Total": {
+        "Total": "1678216.77"
+      }
+    },
+    {
+      "record_id": 50,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202201",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202201",
+        "Candidate": "CAFORIO, BRYAN"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "39707243",
+        "Candidate_Entity": "CAFORIO, BRYAN"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15020",
+        "Office_Sought": "US HOUSE DISTRICT CA 025"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "C",
+        "Incumbency_Status": "Challenger"
+      },
+      "number_of_Records": {
+        "number_of_Records": "3038"
+      },
+      "Total": {
+        "Total": "1675667.50"
+      }
+    },
+    {
+      "record_id": 51,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202354",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202354",
+        "Candidate": "ANTONOVICH, MICHAEL D"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "39707344",
+        "Candidate_Entity": "ANTONOVICH, MICHAEL D"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "694",
+        "Office_Sought": "SENATE DISTRICT 025"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1260"
+      },
+      "Total": {
+        "Total": "1624692.96"
+      }
+    },
+    {
+      "record_id": 52,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202366",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202366",
+        "Candidate": "LARA, RICARDO"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "6489792",
+        "Candidate_Entity": "LARA, RICARDO"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "702",
+        "Office_Sought": "SENATE DISTRICT 033"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1075"
+      },
+      "Total": {
+        "Total": "1609842.42"
+      }
+    },
+    {
+      "record_id": 53,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202150",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202150",
+        "Candidate": "EGGMAN, MICHAEL"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "16191597",
+        "Candidate_Entity": "EGGMAN, MICHAEL"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15005",
+        "Office_Sought": "US HOUSE DISTRICT CA 010"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "C",
+        "Incumbency_Status": "Challenger"
+      },
+      "number_of_Records": {
+        "number_of_Records": "2927"
+      },
+      "Total": {
+        "Total": "1596899.00"
+      }
+    },
+    {
+      "record_id": 54,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202554",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202554",
+        "Candidate": "CERVANTES, SABRINA"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "38566119",
+        "Candidate_Entity": "CERVANTES, SABRINA"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "649",
+        "Office_Sought": "ASSEMBLY DISTRICT 060"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "C",
+        "Incumbency_Status": "Challenger"
+      },
+      "number_of_Records": {
+        "number_of_Records": "447"
+      },
+      "Total": {
+        "Total": "1577226.88"
+      }
+    },
+    {
+      "record_id": 55,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202221",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202221",
+        "Candidate": "SHERMAN, BRAD"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "369166",
+        "Candidate_Entity": "SHERMAN, BRAD"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15025",
+        "Office_Sought": "US HOUSE DISTRICT CA 030"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1292"
+      },
+      "Total": {
+        "Total": "1526725.11"
+      }
+    },
+    {
+      "record_id": 56,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202328",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202328",
+        "Candidate": "KIM, JANE"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "39707325",
+        "Candidate_Entity": "KIM, JANE"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "680",
+        "Office_Sought": "SENATE DISTRICT 011"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1970"
+      },
+      "Total": {
+        "Total": "1524962.13"
+      }
+    },
+    {
+      "record_id": 57,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202245",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202245",
+        "Candidate": "SANCHEZ, LINDA T"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "17657762",
+        "Candidate_Entity": "SANCHEZ, LINDA T"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15033",
+        "Office_Sought": "US HOUSE DISTRICT CA 038"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1223"
+      },
+      "Total": {
+        "Total": "1470249.07"
+      }
+    },
+    {
+      "record_id": 58,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202177",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202177",
+        "Candidate": "PANETTA, JIMMY"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "39707226",
+        "Candidate_Entity": "PANETTA, JIMMY"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15015",
+        "Office_Sought": "US HOUSE DISTRICT CA 020"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1280"
+      },
+      "Total": {
+        "Total": "1461267.14"
+      }
+    },
+    {
+      "record_id": 59,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202257",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202257",
+        "Candidate": "CALVERT, KEN"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "2378663",
+        "Candidate_Entity": "CALVERT, KEN"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15037",
+        "Office_Sought": "US HOUSE DISTRICT CA 042"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1013"
+      },
+      "Total": {
+        "Total": "1437399.49"
+      }
+    },
+    {
+      "record_id": 60,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202175",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202175",
+        "Candidate": "LOFGREN, ZOE"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "761620",
+        "Candidate_Entity": "LOFGREN, ZOE"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15014",
+        "Office_Sought": "US HOUSE DISTRICT CA 019"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1244"
+      },
+      "Total": {
+        "Total": "1434238.23"
+      }
+    },
+    {
+      "record_id": 61,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202509",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202509",
+        "Candidate": "MAYES, CHAD"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "785335",
+        "Candidate_Entity": "MAYES, CHAD"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "631",
+        "Office_Sought": "ASSEMBLY DISTRICT 042"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "920"
+      },
+      "Total": {
+        "Total": "1413343.49"
+      }
+    },
+    {
+      "record_id": 62,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202364",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202364",
+        "Candidate": "ROTH, RICHARD"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "11022836",
+        "Candidate_Entity": "ROTH, RICHARD"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "700",
+        "Office_Sought": "SENATE DISTRICT 031"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1126"
+      },
+      "Total": {
+        "Total": "1399485.30"
+      }
+    },
+    {
+      "record_id": 63,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202342",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202342",
+        "Candidate": "ERVIN, JOHNATHON LEVAR"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "39707335",
+        "Candidate_Entity": "ERVIN, JOHNATHON LEVAR"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "690",
+        "Office_Sought": "SENATE DISTRICT 021"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "293"
+      },
+      "Total": {
+        "Total": "1390388.25"
+      }
+    },
+    {
+      "record_id": 64,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202305",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202305",
+        "Candidate": "GITSHAM, DENISE"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "38300332",
+        "Candidate_Entity": "GITSHAM, DENISE"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15047",
+        "Office_Sought": "US HOUSE DISTRICT CA 052"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "C",
+        "Incumbency_Status": "Challenger"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1655"
+      },
+      "Total": {
+        "Total": "1387692.03"
+      }
+    },
+    {
+      "record_id": 65,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202264",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202264",
+        "Candidate": "HALL III, ISADORE"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "22070",
+        "Candidate_Entity": "HALL III, ISADORE"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15039",
+        "Office_Sought": "US HOUSE DISTRICT CA 044"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1024"
+      },
+      "Total": {
+        "Total": "1384416.94"
+      }
+    },
+    {
+      "record_id": 66,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202367",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202367",
+        "Candidate": "BRADFORD, STEVEN"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "357173",
+        "Candidate_Entity": "BRADFORD, STEVEN"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "704",
+        "Office_Sought": "SENATE DISTRICT 035"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1072"
+      },
+      "Total": {
+        "Total": "1366122.96"
+      }
+    },
+    {
+      "record_id": 67,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202139",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202139",
+        "Candidate": "JONES, SCOTT R"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "39707204",
+        "Candidate_Entity": "JONES, SCOTT R"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15002",
+        "Office_Sought": "US HOUSE DISTRICT CA 007"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "C",
+        "Incumbency_Status": "Challenger"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1299"
+      },
+      "Total": {
+        "Total": "1357147.83"
+      }
+    },
+    {
+      "record_id": 68,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202172",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202172",
+        "Candidate": "ESHOO, ANNA G"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "8050793",
+        "Candidate_Entity": "ESHOO, ANNA G"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15013",
+        "Office_Sought": "US HOUSE DISTRICT CA 018"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "985"
+      },
+      "Total": {
+        "Total": "1350086.47"
+      }
+    },
+    {
+      "record_id": 69,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202159",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202159",
+        "Candidate": "LEE, BARBARA"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "17658745",
+        "Candidate_Entity": "LEE, BARBARA"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15008",
+        "Office_Sought": "US HOUSE DISTRICT CA 013"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "2818"
+      },
+      "Total": {
+        "Total": "1325725.42"
+      }
+    },
+    {
+      "record_id": 70,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202492",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202492",
+        "Candidate": "SMITH, CHRISTY"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "39707435",
+        "Candidate_Entity": "SMITH, CHRISTY"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "627",
+        "Office_Sought": "ASSEMBLY DISTRICT 038"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "315"
+      },
+      "Total": {
+        "Total": "1315994.24"
+      }
+    },
+    {
+      "record_id": 71,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202405",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202405",
+        "Candidate": "COOPER, JIM"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "23421159",
+        "Candidate_Entity": "COOPER, JIM"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "598",
+        "Office_Sought": "ASSEMBLY DISTRICT 009"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "874"
+      },
+      "Total": {
+        "Total": "1310133.91"
+      }
+    },
+    {
+      "record_id": 72,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202521",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202521",
+        "Candidate": "DABABNEH, MATT"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "18912256",
+        "Candidate_Entity": "DABABNEH, MATT"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "634",
+        "Office_Sought": "ASSEMBLY DISTRICT 045"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "683"
+      },
+      "Total": {
+        "Total": "1296280.15"
+      }
+    },
+    {
+      "record_id": 73,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202360",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202360",
+        "Candidate": "FAZIO, STEVE"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "39707350",
+        "Candidate_Entity": "FAZIO, STEVE"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "696",
+        "Office_Sought": "SENATE DISTRICT 027"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "802"
+      },
+      "Total": {
+        "Total": "1295312.22"
+      }
+    },
+    {
+      "record_id": 74,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202331",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202331",
+        "Candidate": "HILL, JERRY A"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "6485659",
+        "Candidate_Entity": "HILL, JERRY A"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "682",
+        "Office_Sought": "SENATE DISTRICT 013"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1215"
+      },
+      "Total": {
+        "Total": "1230308.08"
+      }
+    },
+    {
+      "record_id": 75,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202145",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202145",
+        "Candidate": "MCNERNEY, JERRY"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "6643414",
+        "Candidate_Entity": "MCNERNEY, JERRY"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15004",
+        "Office_Sought": "US HOUSE DISTRICT CA 009"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1501"
+      },
+      "Total": {
+        "Total": "1222230.04"
+      }
+    },
+    {
+      "record_id": 76,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202519",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202519",
+        "Candidate": "IRWIN, JACQUI"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "667092",
+        "Candidate_Entity": "IRWIN, JACQUI"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "633",
+        "Office_Sought": "ASSEMBLY DISTRICT 044"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "826"
+      },
+      "Total": {
+        "Total": "1218555.49"
+      }
+    },
+    {
+      "record_id": 77,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202321",
+        "Candidate": "GLAZER, STEVEN"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "1348234",
+        "Candidate_Entity": "GLAZER, STEVEN"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "676",
+        "Office_Sought": "SENATE DISTRICT 007"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "727"
+      },
+      "Total": {
+        "Total": "1215766.41"
+      }
+    },
+    {
+      "record_id": 78,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202437",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202437",
+        "Candidate": "GRAY, ADAM"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "11022764",
+        "Candidate_Entity": "GRAY, ADAM"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "610",
+        "Office_Sought": "ASSEMBLY DISTRICT 021"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "757"
+      },
+      "Total": {
+        "Total": "1208847.69"
+      }
+    },
+    {
+      "record_id": 79,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202362",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202362",
+        "Candidate": "NEWMAN, JOSH"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "17794889",
+        "Candidate_Entity": "NEWMAN, JOSH"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "698",
+        "Office_Sought": "SENATE DISTRICT 029"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "255"
+      },
+      "Total": {
+        "Total": "1200649.34"
+      }
+    },
+    {
+      "record_id": 80,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202541",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202541",
+        "Candidate": "SANTIAGO, MIGUEL"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "23421278",
+        "Candidate_Entity": "SANTIAGO, MIGUEL"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "642",
+        "Office_Sought": "ASSEMBLY DISTRICT 053"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "805"
+      },
+      "Total": {
+        "Total": "1195991.45"
+      }
+    },
+    {
+      "record_id": 81,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202556",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202556",
+        "Candidate": "LINDER, ERIC"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "11023315",
+        "Candidate_Entity": "LINDER, ERIC"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "649",
+        "Office_Sought": "ASSEMBLY DISTRICT 060"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "554"
+      },
+      "Total": {
+        "Total": "1181349.23"
+      }
+    },
+    {
+      "record_id": 82,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202525",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202525",
+        "Candidate": "BROWN, CHERYL R"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "13008690",
+        "Candidate_Entity": "BROWN, CHERYL R"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "636",
+        "Office_Sought": "ASSEMBLY DISTRICT 047"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "661"
+      },
+      "Total": {
+        "Total": "1172468.82"
+      }
+    },
+    {
+      "record_id": 83,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202207",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202207",
+        "Candidate": "CHU, JUDY"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "1258090",
+        "Candidate_Entity": "CHU, JUDY"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15022",
+        "Office_Sought": "US HOUSE DISTRICT CA 027"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1003"
+      },
+      "Total": {
+        "Total": "1164226.62"
+      }
+    },
+    {
+      "record_id": 84,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202483",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202483",
+        "Candidate": "CUNNINGHAM, JORDAN"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "35967276",
+        "Candidate_Entity": "CUNNINGHAM, JORDAN"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "624",
+        "Office_Sought": "ASSEMBLY DISTRICT 035"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1052"
+      },
+      "Total": {
+        "Total": "1153716.73"
+      }
+    },
+    {
+      "record_id": 85,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202123",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202123",
+        "Candidate": "GARAMENDI, JOHN"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "12997062",
+        "Candidate_Entity": "GARAMENDI, JOHN"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "14998",
+        "Office_Sought": "US HOUSE DISTRICT CA 003"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1120"
+      },
+      "Total": {
+        "Total": "1136405.82"
+      }
+    },
+    {
+      "record_id": 86,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202294",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202294",
+        "Candidate": "HUNTER, DUNCAN D"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "17658760",
+        "Candidate_Entity": "HUNTER, DUNCAN D"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "139",
+        "Specific_Party": "REPUBLICAN"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "2",
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15045",
+        "Office_Sought": "US HOUSE DISTRICT CA 050"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "842"
+      },
+      "Total": {
+        "Total": "1129310.31"
+      }
+    },
+    {
+      "record_id": 87,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202550",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202550",
+        "Candidate": "CALDERON, IAN C"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "11022802",
+        "Candidate_Entity": "CALDERON, IAN C"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "646",
+        "Office_Sought": "ASSEMBLY DISTRICT 057"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "606"
+      },
+      "Total": {
+        "Total": "1119304.44"
+      }
+    },
+    {
+      "record_id": 88,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202461",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202461",
+        "Candidate": "NGUYEN, MADISON"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "39707414",
+        "Candidate_Entity": "NGUYEN, MADISON"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "616",
+        "Office_Sought": "ASSEMBLY DISTRICT 027"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1516"
+      },
+      "Total": {
+        "Total": "1111808.93"
+      }
+    },
+    {
+      "record_id": 89,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202134",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202134",
+        "Candidate": "MATSUI, DORIS O"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "17658638",
+        "Candidate_Entity": "MATSUI, DORIS O"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15001",
+        "Office_Sought": "US HOUSE DISTRICT CA 006"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "730"
+      },
+      "Total": {
+        "Total": "1102563.11"
+      }
+    },
+    {
+      "record_id": 90,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202275",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202275",
+        "Candidate": "CORREA, LOU"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "6398747",
+        "Candidate_Entity": "CORREA, LOU"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15041",
+        "Office_Sought": "US HOUSE DISTRICT CA 046"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1055"
+      },
+      "Total": {
+        "Total": "1099457.87"
+      }
+    },
+    {
+      "record_id": 91,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202475",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202475",
+        "Candidate": "SALAS, RUDY"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "255857",
+        "Candidate_Entity": "SALAS, RUDY"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "621",
+        "Office_Sought": "ASSEMBLY DISTRICT 032"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "638"
+      },
+      "Total": {
+        "Total": "1097074.20"
+      }
+    },
+    {
+      "record_id": 92,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202464",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202464",
+        "Candidate": "LOW, EVAN"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "595416",
+        "Candidate_Entity": "LOW, EVAN"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "617",
+        "Office_Sought": "ASSEMBLY DISTRICT 028"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "816"
+      },
+      "Total": {
+        "Total": "1090670.73"
+      }
+    },
+    {
+      "record_id": 93,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202252",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202252",
+        "Candidate": "TAKANO, MARK"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "17657771",
+        "Candidate_Entity": "TAKANO, MARK"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "15036",
+        "Office_Sought": "US HOUSE DISTRICT CA 041"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1780"
+      },
+      "Total": {
+        "Total": "1062534.75"
+      }
+    },
+    {
+      "record_id": 94,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202562",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202562",
+        "Candidate": "GIPSON, MIKE ANTHONY"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "775723",
+        "Candidate_Entity": "GIPSON, MIKE ANTHONY"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "653",
+        "Office_Sought": "ASSEMBLY DISTRICT 064"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "629"
+      },
+      "Total": {
+        "Total": "1059864.10"
+      }
+    },
+    {
+      "record_id": 95,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202536",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202536",
+        "Candidate": "GOMEZ, JIMMY"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "13008707",
+        "Candidate_Entity": "GOMEZ, JIMMY"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "640",
+        "Office_Sought": "ASSEMBLY DISTRICT 051"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "586"
+      },
+      "Total": {
+        "Total": "1054395.45"
+      }
+    },
+    {
+      "record_id": 96,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202410",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202410",
+        "Candidate": "FRAZIER, JIM"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "11022751",
+        "Candidate_Entity": "FRAZIER, JIM"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "600",
+        "Office_Sought": "ASSEMBLY DISTRICT 011"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "836"
+      },
+      "Total": {
+        "Total": "1054048.39"
+      }
+    },
+    {
+      "record_id": 97,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202425",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202425",
+        "Candidate": "THURMOND, TONY K"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "6485735",
+        "Candidate_Entity": "THURMOND, TONY K"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "604",
+        "Office_Sought": "ASSEMBLY DISTRICT 015"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "832"
+      },
+      "Total": {
+        "Total": "1053752.47"
+      }
+    },
+    {
+      "record_id": 98,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202515",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202515",
+        "Candidate": "KASSAKHIAN, ARDY"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "26267238",
+        "Candidate_Entity": "KASSAKHIAN, ARDY"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "632",
+        "Office_Sought": "ASSEMBLY DISTRICT 043"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Lost-General",
+        "Election_Status": "Lost-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1371"
+      },
+      "Total": {
+        "Total": "1052366.19"
+      }
+    },
+    {
+      "record_id": 99,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202514",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202514",
+        "Candidate": "FRIEDMAN, LAURA"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "39707454",
+        "Candidate_Entity": "FRIEDMAN, LAURA"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "632",
+        "Office_Sought": "ASSEMBLY DISTRICT 043"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "O",
+        "Incumbency_Status": "Open"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1336"
+      },
+      "Total": {
+        "Total": "1052019.60"
+      }
+    },
+    {
+      "record_id": 100,
+      "request": "s=CA&y=2016&c-exi=1&c-t-id=202119",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "202119",
+        "Candidate": "HUFFMAN, JAREN W"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "39707190",
+        "Candidate_Entity": "HUFFMAN, JAREN W"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "33",
+        "Specific_Party": "DEMOCRATIC"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": "1",
+        "General_Party": "Democratic"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "CA",
+        "Election_Jurisdiction": "CA"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "2016",
+        "Election_Year": "2016"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "1",
+        "Election_Type": "Standard"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "14997",
+        "Office_Sought": "US HOUSE DISTRICT CA 002"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "Won-General",
+        "Election_Status": "Won-General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "I",
+        "Incumbency_Status": "Incumbent"
+      },
+      "number_of_Records": {
+        "number_of_Records": "1522"
+      },
+      "Total": {
+        "Total": "1048816.52"
+      }
+    }
+  ]}

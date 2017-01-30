@@ -1,3 +1,4 @@
-<h1>
-  {{title}}
-</h1>
+<div *ngFor="let d of data">
+  <h3>{{d?.Candidate.Candidate}}</h3>
+  <p>{{d?.General_Party.General_Party}}, {{d?.Election_Year.Election_Year}}</p>
+</div>
