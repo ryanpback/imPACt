@@ -1,5 +1,8 @@
+<button (click)="setSearch('federal')" (click)="search('us')">Federal</button>
+<button (click)="setSearch('state')">State</button>
 <h2>Search for current campaign financing</h2>
-  <select #state>
+<div *ngIf="selectedSearch === 'state'">
+  <select #searchState>
     <option disabled>Select a state</option>
     <option value="al">Alabama</option>
     <option value="ak">Alaska</option>
@@ -52,12 +55,8 @@
     <option value="wi">Wisconsin</option>
     <option value="wy">Wyoming</option>
   </select>
-  <div class="radio-buttons">
-    <label>State</label>
-      <input id="" type="radio-inline" [value]="federal">
-    <label>Federal</label>
-      <input id="" type="radio-inline" [value]="state">
-    <label>Local</label>
-      <input id="" type="radio-inline" [value]="local">
-  </div>
+  <button class="btn btn-default" (click)="search(searchState.value)">Search</button>
+</div>
+<div *ngIf="selectedSearch === 'federal'">
   
+</div>
