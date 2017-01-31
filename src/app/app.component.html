@@ -1,26 +1,12 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <p (click)="getComponent('home')"class="navbar-brand">imPACt</p>
+      <a href="#" (click)="getComponent('home')"class="navbar-brand">imPACt</a>
     </div>
     <ul class="nav navbar-nav navbar-right">
-      <li (click)="getComponent('search')">Search</li>
-      <li (click)="getComponent('about')">About</li>
+      <li><a href="#" (click)="getComponent('search')">Search</a></li>
+      <li><a href="#" (click)="getComponent('about')">About</a></li>
     </ul>
   </div>
 </nav>
-<h1 class="text-center">{{title}}</h1>
-<!-- <router-outlet></router-outlet> -->
-<app-overview></app-overview>
-
-<div *ngIf="displayedComponent === 'home'">
-  <app-home></app-home>
-</div>
-
-<div *ngIf="displayedComponent === 'about'">
-  <app-about></app-about>
-</div>
-
-<div *ngIf="displayedComponent === 'search'">
-  <app-search></app-search>
-</div>
+<router-outlet></router-outlet>

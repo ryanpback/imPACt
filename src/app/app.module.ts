@@ -13,7 +13,7 @@ import { FederalComponent } from './federal/federal.component';
 import { StateComponent } from './state/state.component';
 import { OverviewComponent } from './overview/overview.component';
 import { OfficePipe } from './office.pipe';
-// import { routing } from './app.routing';
+import { routing } from './app.routing';
 
 
 @NgModule({
@@ -32,8 +32,8 @@ import { OfficePipe } from './office.pipe';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
-    // routing
+    HttpModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]

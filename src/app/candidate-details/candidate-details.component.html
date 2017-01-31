@@ -1,3 +1,6 @@
-<p>
-  candidate-details works!
-</p>
+<div *ngFor="let candidate of candidates">
+  <h1>{{candidate.Candidate.Candidate}}</h1>
+</div>
+<ul>
+  <li *ngFor="let contributor of contributors">{{contributor.Contributor.Contributor}}</li>
+</ul>

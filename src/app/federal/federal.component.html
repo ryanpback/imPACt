@@ -1,3 +1,4 @@
-<ul>
-  <li *ngFor="let candidate of candidates">{{candidate.Candidate.Candidate}}</li>
-</ul>
+<div *ngFor="let candidate of candidates">
+  <p (click)="goToCandidate(candidate)">{{candidate.Candidate.Candidate}}</p>
+  <br>
+</div>
