@@ -9,6 +9,10 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { SearchComponent } from './search/search.component';
 import { CandidateDetailsComponent } from './candidate-details/candidate-details.component';
+import { FederalComponent } from './federal/federal.component';
+import { StateComponent } from './state/state.component';
+import { OverviewComponent } from './overview/overview.component';
+import { OfficePipe } from './office.pipe';
 // import { routing } from './app.routing';
 
 
@@ -19,7 +23,11 @@ import { CandidateDetailsComponent } from './candidate-details/candidate-details
     AboutComponent,
     HomeComponent,
     SearchComponent,
-    CandidateDetailsComponent
+    CandidateDetailsComponent,
+    FederalComponent,
+    StateComponent,
+    OverviewComponent,
+    OfficePipe
   ],
   imports: [
     BrowserModule,

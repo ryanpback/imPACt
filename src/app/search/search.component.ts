@@ -10,11 +10,6 @@ import { SearchService } from '../search.service';
 export class SearchComponent implements OnInit {
 
   constructor(private searchService: SearchService) { }
-  selectedSearch: String = null;
-
-  setSearch(searchType) {
-    this.selectedSearch = searchType;
-  }
 
   ngOnInit() {
   }
