@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { SearchService } from '../search.service';
 import { OfficePipe } from '../office.pipe';
+import { Router } from '@angular/router';
+import { TitlecasePipe } from '../titlecase.pipe'
 
 @Component({
   selector: 'app-state',
@@ -11,7 +13,7 @@ import { OfficePipe } from '../office.pipe';
 export class StateComponent implements OnInit {
   candidates: Object[] = [];
   selectedState: boolean = false;
-  constructor(private searchService: SearchService) { }
+  constructor(private searchService: SearchService, private router: Router) { }
 
   selectedOffice: string;
 
@@ -25,6 +27,10 @@ export class StateComponent implements OnInit {
   search(selection: string) {
     this.selectedState = true;
     this.searchService.getResults(selection).subscribe(res => this.candidates = res);
+  }
+
+  goToCandidate(candidate) {
+    this.router.navigate(['candidates', candidate.Candidate.id]);
   }
 
 }

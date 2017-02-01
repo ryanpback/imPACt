@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { SearchService } from '../search.service';
 import { Router } from '@angular/router';
+import { TitlecasePipe } from '../titlecase.pipe'
 
 @Component({
   selector: 'app-federal',
@@ -15,7 +16,6 @@ export class FederalComponent implements OnInit {
 
   ngOnInit() {
     this.searchService.getResults("us").subscribe(res => this.candidates = res);
-    this.searchService.getCandidateDetails("211497").subscribe(res => console.log(res));
   }
 
   goToCandidate(candidate) {

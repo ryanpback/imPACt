@@ -14,6 +14,7 @@ import { StateComponent } from './state/state.component';
 import { OverviewComponent } from './overview/overview.component';
 import { OfficePipe } from './office.pipe';
 import { routing } from './app.routing';
+import { TitlecasePipe } from './titlecase.pipe';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { routing } from './app.routing';
     FederalComponent,
     StateComponent,
     OverviewComponent,
-    OfficePipe
+    OfficePipe,
+    TitlecasePipe
   ],
   imports: [
     BrowserModule,

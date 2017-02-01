@@ -1,4 +1,14 @@
-<div *ngFor="let candidate of candidates">
-  <p (click)="goToCandidate(candidate)">{{candidate.Candidate.Candidate}}</p>
-  <br>
-</div>
+<h1 class="text-center">Presidential Candidates</h1>
+<hr>
+<table class="table table-striped table-bordered">
+  <tr>
+    <th>Candidate</th>
+    <th>Party</th>
+    <th>Total Raised</th>
+  </tr>
+  <tr *ngFor="let candidate of candidates">
+    <td class="link" (click)="goToCandidate(candidate)">{{candidate.Candidate.Candidate | titlecase }}</td>
+    <td>{{candidate.General_Party.General_Party}}</td>
+    <td>{{candidate.Total_$.Total_$ | currency:'USD':true}}</td>
+  </tr>
+</table>
