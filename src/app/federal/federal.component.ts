@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { SearchService } from '../search.service';
 import { Router } from '@angular/router';
 import { TitlecasePipe } from '../titlecase.pipe'
+import * as d3 from 'd3';
 
 @Component({
   selector: 'app-federal',

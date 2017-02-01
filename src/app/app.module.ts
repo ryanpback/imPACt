@@ -15,6 +15,7 @@ import { OverviewComponent } from './overview/overview.component';
 import { OfficePipe } from './office.pipe';
 import { routing } from './app.routing';
 import { TitlecasePipe } from './titlecase.pipe';
+import { ResultVisualsComponent } from './result-visuals/result-visuals.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { TitlecasePipe } from './titlecase.pipe';
     StateComponent,
     OverviewComponent,
     OfficePipe,
-    TitlecasePipe
+    TitlecasePipe,
+    ResultVisualsComponent
   ],
   imports: [
     BrowserModule,
