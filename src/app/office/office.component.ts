@@ -47,7 +47,7 @@ export class OfficeComponent implements OnInit {
   }
 
   goToOffice(office) {
-    this.router.navigate(['offices', office.Office_Sought.id]);
+    this.router.navigate(['offices', office.Office_Sought.id, this.year]);
   }
 
   yearSelection(year) {

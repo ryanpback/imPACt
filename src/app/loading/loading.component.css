@@ -13,6 +13,10 @@
   animation: load3 3s infinite;
 }
 
+h2 {
+  color: #00695c;
+}
+
 
 @keyframes load1 {
   0% { opacity: 0;}

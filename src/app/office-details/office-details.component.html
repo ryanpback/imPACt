@@ -9,6 +9,7 @@
     <th>Candidates</th>
     <th>Party</th>
     <th>Election Result</th>
+    <th>Year</th>
     <th>Total</th>
   </tr>
   <tr *ngFor="let candidate of candidates | slice:0:20">
@@ -19,6 +20,7 @@
       </span>
     </td>
     <td>{{candidate.Election_Status.Election_Status.replace('-', ' ')}}</td>
+    <td>{{year}}</td>
     <td>{{candidate.Total_$.Total_$ | currency:'USD':true}}</td>
   </tr>
 </table>

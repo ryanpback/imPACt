@@ -29,7 +29,7 @@ const appRoutes: Routes = [
     component: ContributorDetailsComponent
   },
   {
-    path: 'offices/:id',
+    path: 'offices/:id/:year',
     component: OfficeDetailsComponent
   }
 ]

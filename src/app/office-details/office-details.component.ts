@@ -14,14 +14,16 @@ export class OfficeDetailsComponent implements OnInit {
   officeId: string;
   offices;
   candidates: Object[];
+  year: string;
 
   constructor(private route: ActivatedRoute, private location: Location, private searchService: SearchService, private router: Router) { }
 
   ngOnInit() {
     this.route.params.forEach((urlParameters) => {
       this.officeId = urlParameters['id'];
+      this.year = urlParameters['year'];
     })
-    this.searchService.getOfficeCandidates(this.officeId).subscribe(res => this.candidates = res);
+    this.searchService.getOfficeCandidates(this.officeId, this.year).subscribe(res => this.candidates = res);
   }
 
   goToCandidate(candidate) {
