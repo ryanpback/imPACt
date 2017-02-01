@@ -13,6 +13,7 @@ export class SearchService {
 
   private extractData(res: Response) {
     let body = res.json();
+    console.log(body)
     return body.records || { };
   }
 
@@ -35,8 +36,18 @@ export class SearchService {
     return this.http.get(url).map(this.extractData);
   }
 
+  getContributorDetails(id) {
+    let url: string = "http://api.followthemoney.org/?d-eid=" + id + "&y=2016&c-exi=1&gro=d-eid&APIKey=" + this.apiKey + "&mode=json";
+    return this.http.get(url).map(this.extractData);
+  }
+
   getContributorCandidates(id) {
     let url: string = "http://api.followthemoney.org/?d-eid=" + id + "&y=2016&c-exi=1&gro=c-t-id&APIKey=" + this.apiKey + "&mode=json";
+    return this.http.get(url).map(this.extractData);
+  }
+
+  getOffices(state) {
+    let url: string = "http://api.followthemoney.org/?s=" + state + "&y=2016&c-exi=1&gro=c-r-id&APIKey=" + this.apiKey + "&mode=json";
     return this.http.get(url).map(this.extractData);
   }
 }

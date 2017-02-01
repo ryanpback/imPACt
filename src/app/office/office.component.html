@@ -1,4 +1,4 @@
-<h1 class="text-center">State Candidates</h1>
+<h1 class="text-center">Elected Offices</h1>
 <select (change)="search($event.target.value)">
   <option disabled>Select a state</option>
   <option value="al">Alabama</option>
@@ -66,16 +66,14 @@
 <div *ngIf="selectedState">
   <table class="table table-striped table-bordered">
     <tr>
-      <th>Candidate</th>
-      <th>Party</th>
       <th>Office</th>
+      <th>Year</th>
       <th>Total Raised</th>
     </tr>
-    <tr *ngFor="let candidate of candidates | office:selectedOffice">
-      <td class="link" (click)="goToCandidate(candidate)">{{candidate.Candidate.Candidate | titlecase}}</td>
-      <td>{{candidate.General_Party.General_Party}}</td>
-      <td>{{(candidate.Office_Sought.Office_Sought | titlecase).replace('Us', 'US')}}</td>
-      <td>{{candidate.Total_$.Total_$ | currency:'USD':true}}</td>
+    <tr *ngFor="let office of offices | office:selectedOffice">
+      <td>{{(office.Office_Sought.Office_Sought | titlecase).replace('Us', 'US')}}</td>
+      <td>{{office.Election_Year.Election_Year}}</td>
+      <td>{{office.Total_$.Total_$ | currency:'USD':true}}</td>
     </tr>
   </table>
 </div>

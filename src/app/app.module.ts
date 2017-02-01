@@ -15,6 +15,10 @@ import { OverviewComponent } from './overview/overview.component';
 import { OfficePipe } from './office.pipe';
 import { routing } from './app.routing';
 import { TitlecasePipe } from './titlecase.pipe';
+import { PartyPipe } from './party.pipe';
+import { ContributorDetailsComponent } from './contributor-details/contributor-details.component';
+import { OfficeComponent } from './office/office.component';
+import { OfficeDetailsComponent } from './office-details/office-details.component';
 
 
 @NgModule({
@@ -29,7 +33,11 @@ import { TitlecasePipe } from './titlecase.pipe';
     StateComponent,
     OverviewComponent,
     OfficePipe,
-    TitlecasePipe
+    TitlecasePipe,
+    PartyPipe,
+    ContributorDetailsComponent,
+    OfficeComponent,
+    OfficeDetailsComponent
   ],
   imports: [
     BrowserModule,

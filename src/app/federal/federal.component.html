@@ -1,4 +1,11 @@
 <h1 class="text-center">Presidential Candidates</h1>
+<select (change)=partySelection($event.target.value)>
+  <option disabled>Sort by party</option>
+  <option value="all">All</option>
+  <option value="Democratic">Democratic</option>
+  <option value="Republican">Republican</option>
+  <option value="other">Third Party</option>
+</select>
 <hr>
 <table class="table table-striped table-bordered">
   <tr>
@@ -6,9 +13,13 @@
     <th>Party</th>
     <th>Total Raised</th>
   </tr>
-  <tr *ngFor="let candidate of candidates">
+  <tr *ngFor="let candidate of candidates | party:partyChoice">
     <td class="link" (click)="goToCandidate(candidate)">{{candidate.Candidate.Candidate | titlecase }}</td>
-    <td>{{candidate.General_Party.General_Party}}</td>
+    <td>{{candidate.General_Party.General_Party}}
+      <span *ngIf="candidate.General_Party.General_Party === 'Third-Party'">
+        ({{candidate.Specific_Party.Specific_Party | titlecase}})
+      </span>
+    </td>
     <td>{{candidate.Total_$.Total_$ | currency:'USD':true}}</td>
   </tr>
 </table>

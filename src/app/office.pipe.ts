@@ -8,7 +8,6 @@ export class OfficePipe implements PipeTransform {
 
   transform(candidates, office: string): any {
     if(candidates) {
-      console.log(office)
       if(office === "senate") {
         return candidates.filter(function(candidate) {
           return candidate.Office_Sought.Office_Sought.match(/(US SENATE\W.+)/g)
@@ -24,9 +23,9 @@ export class OfficePipe implements PipeTransform {
           return candidate.Office_Sought.Office_Sought.match(/(GOVERNOR)/g)
         })
       }
-      else if(office === "assembly") {
+      else if(office === "other") {
         return candidates.filter(function(candidate) {
-          return candidate.Office_Sought.Office_Sought.match(/(ASSEMBLY\W.+)/g)
+          return !candidate.Office_Sought.Office_Sought.match(/(US SENATE\W.+)|(US HOUSE\W.+)|(GOVERNOR)/g)
         })
       }
       else {
