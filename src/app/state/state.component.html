@@ -1,83 +1,101 @@
 <h1 class="text-center">State Candidates</h1>
-<select (change)="search($event.target.value)">
-  <option disabled>Select a state</option>
-  <option value="al">Alabama</option>
-  <option value="ak">Alaska</option>
-  <option value="ar">Arkansas</option>
-  <option value="ca">California</option>
-  <option value="co">Colorado</option>
-  <option value="ct">Connecticut</option>
-  <option value="de">Delaware</option>
-  <option value="dc">District of Columbia</option>
-  <option value="fl">Florida</option>
-  <option value="ga">Georgia</option>
-  <option value="hi">Hawaii</option>
-  <option value="id">Idaho</option>
-  <option value="il">Illinois</option>
-  <option value="in">Indiana</option>
-  <option value="ia">Iowa</option>
-  <option value="ks">Kansas</option>
-  <option value="ky">Kentucky</option>
-  <option value="la">Louisana</option>
-  <option value="me">Maine</option>
-  <option value="md">Mayland</option>
-  <option value="ma">Massachusettes</option>
-  <option value="mi">Michigan</option>
-  <option value="mn">Minnesota</option>
-  <option value="ms">Mississippi</option>
-  <option value="mo">Missouri</option>
-  <option value="mt">Montana</option>
-  <option value="ne">Nebraska</option>
-  <option value="nv">Nevada</option>
-  <option value="nh">New Hampshire</option>
-  <option value="nj">New Jersey</option>
-  <option value="nm">New Mexico</option>
-  <option value="ny">New York</option>
-  <option value="nc">North Carolina</option>
-  <option value="nd">North Dakota</option>
-  <option value="oh">Ohio</option>
-  <option value="ok">Oklahoma</option>
-  <option value="or">Oregon</option>
-  <option value="pa">Pennsylvania</option>
-  <option value="ri">Rhode Island</option>
-  <option value="sc">South Carolina</option>
-  <option value="sd">South Dakota</option>
-  <option value="tn">Tennesse</option>
-  <option value="tx">Texas</option>
-  <option value="ut">Utah</option>
-  <option value="vt">Vermont</option>
-  <option value="va">Virginia</option>
-  <option value="wa">Washington</option>
-  <option value="wv">West Virginia</option>
-  <option value="wi">Wisconsin</option>
-  <option value="wy">Wyoming</option>
-</select>
+  <select (change)="search($event.target.value)">
+    <option disabled>Select a state</option>
+    <option value="al">Alabama</option>
+    <option value="ak">Alaska</option>
+    <option value="ar">Arkansas</option>
+    <option value="ca">California</option>
+    <option value="co">Colorado</option>
+    <option value="ct">Connecticut</option>
+    <option value="de">Delaware</option>
+    <option value="dc">District of Columbia</option>
+    <option value="fl">Florida</option>
+    <option value="ga">Georgia</option>
+    <option value="hi">Hawaii</option>
+    <option value="id">Idaho</option>
+    <option value="il">Illinois</option>
+    <option value="in">Indiana</option>
+    <option value="ia">Iowa</option>
+    <option value="ks">Kansas</option>
+    <option value="ky">Kentucky</option>
+    <option value="la">Louisana</option>
+    <option value="me">Maine</option>
+    <option value="md">Mayland</option>
+    <option value="ma">Massachusettes</option>
+    <option value="mi">Michigan</option>
+    <option value="mn">Minnesota</option>
+    <option value="ms">Mississippi</option>
+    <option value="mo">Missouri</option>
+    <option value="mt">Montana</option>
+    <option value="ne">Nebraska</option>
+    <option value="nv">Nevada</option>
+    <option value="nh">New Hampshire</option>
+    <option value="nj">New Jersey</option>
+    <option value="nm">New Mexico</option>
+    <option value="ny">New York</option>
+    <option value="nc">North Carolina</option>
+    <option value="nd">North Dakota</option>
+    <option value="oh">Ohio</option>
+    <option value="ok">Oklahoma</option>
+    <option value="or">Oregon</option>
+    <option value="pa">Pennsylvania</option>
+    <option value="ri">Rhode Island</option>
+    <option value="sc">South Carolina</option>
+    <option value="sd">South Dakota</option>
+    <option value="tn">Tennesse</option>
+    <option value="tx">Texas</option>
+    <option value="ut">Utah</option>
+    <option value="vt">Vermont</option>
+    <option value="va">Virginia</option>
+    <option value="wa">Washington</option>
+    <option value="wv">West Virginia</option>
+    <option value="wi">Wisconsin</option>
+    <option value="wy">Wyoming</option>
+  </select>
 
-<select (change)="onChange($event.target.value)">
-  <option disabled>Sort by office</option>
-  <option value="all">View All</option>
-  <option value="senate">Senate</option>
-  <option value="house">House</option>
-  <option value="governor">Governor</option>
-  <option value="other">Other</option>
-</select>
+  <select (change)="onChange($event.target.value)">
+    <option disabled>Sort by office</option>
+    <option value="all">View All</option>
+    <option value="senate">Senate</option>
+    <option value="house">House</option>
+    <option value="governor">Governor</option>
+    <option value="other">Other</option>
+  </select>
 
-<hr>
-<div *ngIf="selectedState">
-  <table class="table table-striped table-bordered">
-    <tr>
-      <th>Candidate</th>
-      <th>Party</th>
-      <th>Office</th>
-      <th>Election Result</th>
-      <th>Total Raised</th>
-    </tr>
-    <tr *ngFor="let candidate of candidates | office:selectedOffice">
-      <td class="link" (click)="goToCandidate(candidate)">{{candidate.Candidate.Candidate | titlecase}}</td>
-      <td>{{candidate.General_Party.General_Party}}</td>
-      <td class="link" (click)="goToOffice(candidate)">{{(candidate.Office_Sought.Office_Sought | titlecase).replace('Us', 'US')}}</td>
-      <td>{{candidate.Election_Status.Election_Status.replace('-', ' ')}}</td>
-      <td>{{candidate.Total_$.Total_$ | currency:'USD':true}}</td>
-    </tr>
-  </table>
+  <select (change)=yearSelection($event.target.value)>
+    <option disabled>Sort by Year</option>
+    <option value="2016" selected>2016</option>
+    <option value="2015">2015</option>
+    <option value="2014">2014</option>
+    <option value="2013">2013</option>
+    <option value="2012">2012</option>
+    <option value="2011">2011</option>
+  </select>
+
+<div *ngIf="hasCandidates">
+  <hr>
+  <div *ngIf="hasState">
+    <table class="table table-striped table-bordered">
+      <tr>
+        <th>Candidate</th>
+        <th>Party</th>
+        <th>Office</th>
+        <th>Election Result</th>
+        <th>Year</th>
+        <th>Total Raised</th>
+      </tr>
+      <tr *ngFor="let candidate of candidates | office:selectedOffice">
+        <td class="link" (click)="goToCandidate(candidate)">{{candidate.Candidate.Candidate | titlecase}}</td>
+        <td>{{candidate.General_Party.General_Party}}</td>
+        <td class="link" (click)="goToOffice(candidate)">{{(candidate.Office_Sought.Office_Sought | titlecase).replace('Us', 'US')}}</td>
+        <td>{{candidate.Election_Status.Election_Status.replace('-', ' ')}}</td>
+        <td>{{candidate.Election_Year.Election_Year}}</td>
+        <td>{{candidate.Total_$.Total_$ | currency:'USD':true}}</td>
+      </tr>
+    </table>
+  </div>
+</div>
+<div *ngIf="!hasCandidates">
+  <hr>
+  <h3>{{candidates[0]}}</h3>
 </div>

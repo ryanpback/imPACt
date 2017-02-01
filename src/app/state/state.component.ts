@@ -12,12 +12,28 @@ import { TitlecasePipe } from '../titlecase.pipe'
 })
 export class StateComponent implements OnInit {
   candidates: Object[] = [];
-  selectedState: boolean = false;
+  hasState: boolean = false;
+  selectedState: string;
+  hasCandidates: boolean = false;
+  selectedOffice: string;
+  year:string = this.searchService.getYear();
+
   constructor(private searchService: SearchService, private router: Router) { }
 
-  selectedOffice: string;
+  checkCandidates() {
+    if(this.candidates.length > 0) {
+      if(this.candidates[0] !== "No Records"){
+        this.hasCandidates = true;
+      }
+    }
+  }
 
   ngOnInit() {
+    this.checkCandidates();
+  }
+
+  ngDoCheck() {
+    this.checkCandidates();
   }
 
   onChange(userChoice) {
@@ -25,8 +41,9 @@ export class StateComponent implements OnInit {
   }
 
   search(selection: string) {
-    this.selectedState = true;
-    this.searchService.getResults(selection).subscribe(res => this.candidates = res);
+    this.hasState = true;
+    this.searchService.getResults(selection, this.year).subscribe(res => this.candidates = res);
+    this.selectedState = selection;
   }
 
   goToCandidate(candidate) {
@@ -35,6 +52,11 @@ export class StateComponent implements OnInit {
 
   goToOffice(candidate) {
     this.router.navigate(['offices', candidate.Office_Sought.id])
+  }
+
+  yearSelection(year) {
+    this.year = year;
+    this.searchService.getResults(this.selectedState, this.year).subscribe(res => this.candidates = res);
   }
 
 }

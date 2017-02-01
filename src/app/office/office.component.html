@@ -62,18 +62,34 @@
   <option value="other">Other</option>
 </select>
 
-<hr>
-<div *ngIf="selectedState">
-  <table class="table table-striped table-bordered">
-    <tr>
-      <th>Office</th>
-      <th>Year</th>
-      <th>Total Raised</th>
-    </tr>
-    <tr *ngFor="let office of offices | office:selectedOffice">
-      <td class="link" (click)="goToOffice(office)">{{(office.Office_Sought.Office_Sought | titlecase).replace('Us', 'US')}}</td>
-      <td>{{office.Election_Year.Election_Year}}</td>
-      <td>{{office.Total_$.Total_$ | currency:'USD':true}}</td>
-    </tr>
-  </table>
+<select (change)=yearSelection($event.target.value)>
+  <option disabled>Sort by Year</option>
+  <option value="2016" selected>2016</option>
+  <option value="2015">2015</option>
+  <option value="2014">2014</option>
+  <option value="2013">2013</option>
+  <option value="2012">2012</option>
+  <option value="2011">2011</option>
+</select>
+
+<div *ngIf="hasOffices">
+  <hr>
+  <div *ngIf="hasState">
+    <table class="table table-striped table-bordered">
+      <tr>
+        <th>Office</th>
+        <th>Year</th>
+        <th>Total Raised</th>
+      </tr>
+      <tr *ngFor="let office of offices | office:selectedOffice">
+        <td class="link" (click)="goToOffice(office)">{{(office.Office_Sought.Office_Sought | titlecase).replace('Us', 'US')}}</td>
+        <td>{{office.Election_Year.Election_Year}}</td>
+        <td>{{office.Total_$.Total_$ | currency:'USD':true}}</td>
+      </tr>
+    </table>
+  </div>
+</div>
+<div *ngIf="!hasOffices">
+  <hr>
+  <h3>{{offices[0]}}</h3>
 </div>

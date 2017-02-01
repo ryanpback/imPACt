@@ -19,6 +19,7 @@ import { PartyPipe } from './party.pipe';
 import { ContributorDetailsComponent } from './contributor-details/contributor-details.component';
 import { OfficeComponent } from './office/office.component';
 import { OfficeDetailsComponent } from './office-details/office-details.component';
+import { LoadingComponent } from './loading/loading.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { OfficeDetailsComponent } from './office-details/office-details.componen
     ContributorDetailsComponent,
     OfficeComponent,
     OfficeDetailsComponent,
-    OfficeDetailsComponent
+    OfficeDetailsComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,

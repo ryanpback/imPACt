@@ -8,19 +8,16 @@
   <tr>
     <th>Candidate</th>
     <th>Type of Contributor</th>
+    <th>Year</th>
     <th>Total</th>
   </tr>
   <tr *ngFor="let candidate of candidates | slice:0:10">
     <td class="link" (click)='goToCandidate(candidate)'>{{candidate.Candidate.Candidate | titlecase}}</td>
     <td>{{candidate.General_Party.General_Party}}</td>
+    <td>{{candidate.Election_Year.Election_Year}}</td>
     <td>{{candidate.Total_$.Total_$ | currency:'USD':true}}</td>
   </tr>
 </table>
 <div *ngIf="!candidates">
-  <h2>
-    Loading
-    <span class="load1">.</span>
-    <span class="load2">.</span>
-    <span class="load3">.</span>
-  </h2>
+  <app-loading></app-loading>
 </div>

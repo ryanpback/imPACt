@@ -14,6 +14,7 @@ export class ContributorDetailsComponent implements OnInit {
   contributorId: string;
   contributors;
   candidates: Object[];
+  year: string = this.searchService.getYear();
   constructor(private route: ActivatedRoute, private location: Location, private searchService: SearchService, private router: Router) { }
 
   ngOnInit() {

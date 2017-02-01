@@ -21,7 +21,7 @@ export class OfficePipe implements PipeTransform {
       else if(office === "governor") {
         return candidates.filter(function(candidate) {
           return candidate.Office_Sought.Office_Sought.match(/(GOVERNOR)/g)
-        })
+        });
       }
       else if(office === "other") {
         return candidates.filter(function(candidate) {
