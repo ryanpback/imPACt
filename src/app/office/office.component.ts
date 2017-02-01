@@ -29,8 +29,8 @@ export class OfficeComponent implements OnInit {
     this.searchService.getOffices(selection).subscribe(res => this.offices = res);
   }
 
-  goToCandidate(candidate) {
-    this.router.navigate(['offices', candidate.Candidate.id]);
+  goToOffice(office) {
+    this.router.navigate(['offices', office.Office_Sought.id]);
   }
 
 }

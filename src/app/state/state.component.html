@@ -69,12 +69,14 @@
       <th>Candidate</th>
       <th>Party</th>
       <th>Office</th>
+      <th>Election Result</th>
       <th>Total Raised</th>
     </tr>
     <tr *ngFor="let candidate of candidates | office:selectedOffice">
       <td class="link" (click)="goToCandidate(candidate)">{{candidate.Candidate.Candidate | titlecase}}</td>
       <td>{{candidate.General_Party.General_Party}}</td>
-      <td>{{(candidate.Office_Sought.Office_Sought | titlecase).replace('Us', 'US')}}</td>
+      <td class="link" (click)="goToOffice(candidate)">{{(candidate.Office_Sought.Office_Sought | titlecase).replace('Us', 'US')}}</td>
+      <td>{{candidate.Election_Status.Election_Status.replace('-', ' ')}}</td>
       <td>{{candidate.Total_$.Total_$ | currency:'USD':true}}</td>
     </tr>
   </table>

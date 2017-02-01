@@ -33,4 +33,8 @@ export class StateComponent implements OnInit {
     this.router.navigate(['candidates', candidate.Candidate.id]);
   }
 
+  goToOffice(candidate) {
+    this.router.navigate(['offices', candidate.Office_Sought.id])
+  }
+
 }

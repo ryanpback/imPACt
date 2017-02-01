@@ -50,4 +50,14 @@ export class SearchService {
     let url: string = "http://api.followthemoney.org/?s=" + state + "&y=2016&c-exi=1&gro=c-r-id&APIKey=" + this.apiKey + "&mode=json";
     return this.http.get(url).map(this.extractData);
   }
+
+  getOfficeDetails(id) {
+    let url: string = "http://api.followthemoney.org/?c-r-osid=" + id + "&y=2016&c-exi=1&gro=c-r-id&APIKey=" + this.apiKey + "&mode=json";
+    return this.http.get(url).map(this.extractData);
+  }
+
+  getOfficeCandidates(id) {
+    let url: string = "http://api.followthemoney.org/?c-r-osid=" + id + "&y=2016&c-exi=1&gro=c-t-id&APIKey=" + this.apiKey + "&mode=json";
+    return this.http.get(url).map(this.extractData);
+  }
 }

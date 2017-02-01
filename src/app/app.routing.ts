@@ -5,6 +5,7 @@ import { OverviewComponent} from './overview/overview.component';
 import { AboutComponent} from './about/about.component';
 import { SearchComponent } from './search/search.component';
 import { ContributorDetailsComponent } from './contributor-details/contributor-details.component'
+import { OfficeDetailsComponent } from './office-details/office-details.component';
 
 const appRoutes: Routes = [
   {
@@ -26,6 +27,10 @@ const appRoutes: Routes = [
   {
     path: 'contributors/:id',
     component: ContributorDetailsComponent
+  },
+  {
+    path: 'offices/:id',
+    component: OfficeDetailsComponent
   }
 ]
 

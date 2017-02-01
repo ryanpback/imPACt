@@ -1,3 +1,32 @@
-<p>
-  office-details works!
-</p>
+<p class="link" (click)="goBack()"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Go back</p>
+
+<div *ngFor="let candidate of candidates | slice:0:1">
+  <h1 class="text-center">{{candidate.Office_Sought.Office_Sought | titlecase}}</h1>
+  <h3 class="text-center">Candidates</h3>
+</div>
+<table class="table table-striped table-bordered">
+  <tr>
+    <th>Candidates</th>
+    <th>Party</th>
+    <th>Election Result</th>
+    <th>Total</th>
+  </tr>
+  <tr *ngFor="let candidate of candidates | slice:0:20">
+    <td class="link" (click)='goToCandidate(candidate)'>{{candidate.Candidate.Candidate | titlecase}}</td>
+    <td>{{candidate.General_Party.General_Party}}
+      <span *ngIf="candidate.General_Party.General_Party === 'Third-Party'">
+        ({{candidate.Specific_Party.Specific_Party | titlecase}})
+      </span>
+    </td>
+    <td>{{candidate.Election_Status.Election_Status.replace('-', ' ')}}</td>
+    <td>{{candidate.Total_$.Total_$ | currency:'USD':true}}</td>
+  </tr>
+</table>
+<div *ngIf="!candidates">
+  <h2>
+    Loading
+    <span class="load1">.</span>
+    <span class="load2">.</span>
+    <span class="load3">.</span>
+  </h2>
+</div>

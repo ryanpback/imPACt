@@ -71,7 +71,7 @@
       <th>Total Raised</th>
     </tr>
     <tr *ngFor="let office of offices | office:selectedOffice">
-      <td>{{(office.Office_Sought.Office_Sought | titlecase).replace('Us', 'US')}}</td>
+      <td class="link" (click)="goToOffice(office)">{{(office.Office_Sought.Office_Sought | titlecase).replace('Us', 'US')}}</td>
       <td>{{office.Election_Year.Election_Year}}</td>
       <td>{{office.Total_$.Total_$ | currency:'USD':true}}</td>
     </tr>

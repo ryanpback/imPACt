@@ -37,6 +37,7 @@ import { OfficeDetailsComponent } from './office-details/office-details.componen
     PartyPipe,
     ContributorDetailsComponent,
     OfficeComponent,
+    OfficeDetailsComponent,
     OfficeDetailsComponent
   ],
   imports: [
