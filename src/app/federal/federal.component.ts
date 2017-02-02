@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { TitlecasePipe } from '../titlecase.pipe'
 import { PartyPipe } from '../party.pipe';
 
+
 @Component({
   selector: 'app-federal',
   templateUrl: './federal.component.html',
