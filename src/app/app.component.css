@@ -24,3 +24,7 @@ footer > h3, footer > p {
 footer > h3 {
   margin-top: 53px;
 }
+
+h1:hover {
+  cursor: pointer;
+}

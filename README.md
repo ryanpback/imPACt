@@ -1,4 +1,4 @@
-# HackTeam
+# imPACt
 
 _This application was created during team week 2 in Angular and D3 as a tool to visually representing campaign finance data_
 
