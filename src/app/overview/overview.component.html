@@ -1,10 +1,14 @@
 <ul class="nav nav-tabs nav-justified">
-  <li role="presentation" [class]="isFederal(selectedTab)" (click)="setActive('federal')"><a href="#">Federal</a></li>
+  <li role="presentation" [class]="isFederal(selectedTab)" (click)="setActive('federal')"><a href="#">Presidential</a></li>
   <li role="presentation" [class]="isState(selectedTab)" (click)="setActive('state')"><a href="#">State</a></li>
+  <li role="presentation" [class]="isOffice(selectedTab)" (click)="setActive('officeSought')"><a href="#">By Elected Office</a></li>
 </ul>
 <div *ngIf="selectedTab === 'federal'">
   <app-federal></app-federal>
 </div>
 <div *ngIf="selectedTab === 'state'">
   <app-state></app-state>
+</div>
+<div *ngIf="selectedTab === 'officeSought'">
+  <app-office></app-office>
 </div>

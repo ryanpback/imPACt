@@ -1,0 +1,23 @@
+<p class="link" (click)="goBack()"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Go back</p>
+
+<div *ngFor="let contributor of contributors">
+  <h1 class="text-center">{{contributor.Contributor.Contributor | titlecase}}</h1>
+  <h3 class="text-center">Top Candidates Sponsored</h3>
+</div>
+<table class="table table-striped table-bordered">
+  <tr>
+    <th>Candidate</th>
+    <th>Type of Contributor</th>
+    <th>Year</th>
+    <th>Total</th>
+  </tr>
+  <tr *ngFor="let candidate of candidates | slice:0:10">
+    <td class="link" (click)='goToCandidate(candidate)'>{{candidate.Candidate.Candidate | titlecase}}</td>
+    <td>{{candidate.General_Party.General_Party}}</td>
+    <td>{{candidate.Election_Year.Election_Year}}</td>
+    <td>{{candidate.Total_$.Total_$ | currency:'USD':true}}</td>
+  </tr>
+</table>
+<div *ngIf="!candidates">
+  <app-loading></app-loading>
+</div>

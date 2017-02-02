@@ -16,7 +16,13 @@ import { OfficePipe } from './office.pipe';
 import { routing } from './app.routing';
 import { TitlecasePipe } from './titlecase.pipe';
 import { ResultVisualsComponent } from './result-visuals/result-visuals.component';
+import { PartyPipe } from './party.pipe';
+import { ContributorDetailsComponent } from './contributor-details/contributor-details.component';
+import { OfficeComponent } from './office/office.component';
+import { OfficeDetailsComponent } from './office-details/office-details.component';
+import { LoadingComponent } from './loading/loading.component';
 import { BarGraphComponent } from './bar-graph/bar-graph.component';
+
 
 
 @NgModule({
@@ -32,7 +38,13 @@ import { BarGraphComponent } from './bar-graph/bar-graph.component';
     OverviewComponent,
     OfficePipe,
     TitlecasePipe,
-    ResultVisualsComponent,
+    ResultVisualsComponent
+    PartyPipe,
+    ContributorDetailsComponent,
+    OfficeComponent,
+    OfficeDetailsComponent,
+    OfficeDetailsComponent,
+    LoadingComponent,
     BarGraphComponent
   ],
   imports: [
