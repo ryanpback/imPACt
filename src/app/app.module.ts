@@ -21,6 +21,7 @@ import { ContributorDetailsComponent } from './contributor-details/contributor-d
 import { OfficeComponent } from './office/office.component';
 import { OfficeDetailsComponent } from './office-details/office-details.component';
 import { LoadingComponent } from './loading/loading.component';
+import { BarGraphComponent } from './bar-graph/bar-graph.component';
 
 
 
@@ -43,7 +44,8 @@ import { LoadingComponent } from './loading/loading.component';
     OfficeComponent,
     OfficeDetailsComponent,
     OfficeDetailsComponent,
-    LoadingComponent
+    LoadingComponent,
+    BarGraphComponent
   ],
   imports: [
     BrowserModule,

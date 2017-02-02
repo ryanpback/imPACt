@@ -37,6 +37,7 @@ export class FederalComponent implements OnInit {
 
   goToCandidate(candidate) {
     this.router.navigate(['candidates', candidate.Candidate.id]);
+
   }
 
   partySelection(choice) {

@@ -28,6 +28,7 @@ export class CandidateDetailsComponent implements OnInit {
     this.searchService.getCandidateDetails(this.candidateId).subscribe(res => this.candidates = res);
     this.searchService.getCandidateContributors(this.candidateId).subscribe(res => this.contributors = res);
     this.searchService.getCandidateContributors(this.candidateId).subscribe(res => {
+
       let contribAmount = res;
       for(var i = 0; i < 3; i++) {
         this.topThree.push(contribAmount[i]);

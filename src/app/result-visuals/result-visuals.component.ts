@@ -26,6 +26,7 @@ export class ResultVisualsComponent implements OnInit {
                       .attr('height', this.height)
                       .append('g')
                       .attr('transform', 'translate(' + (this.width / 2) + ',' + (this.height / 2) + ')');
+
     var tooltip = d3.select('#chart')
                     .append('div')
                     .attr('class', 'tooltip');
@@ -35,7 +36,7 @@ export class ResultVisualsComponent implements OnInit {
       .attr('class', 'percent')
     let arc = d3.arc().innerRadius(this.radius - this.donutWidth).outerRadius(this.radius);
     d3.json('http://api.followthemoney.org/?p=0&c-t-id=' + this.childCandidateId + '&y=2016&c-exi=1&gro=d-eid&APIKey=' + this.searchService.apiKey + '&mode=json', function(data) {
-      let records = data.records
+      let records = data.records;
       let topTen = [];
       let dataset = ['#1f77b4', '#aec7e8', '#ffbb78', "#2ca02c", "#98df8a", "#d62728", "#ff9896", "#9467bd", "#c5b0d58"]
       for (var i = 0; i < 10; i++) {
