@@ -2,3 +2,25 @@
   background-color: transparent;
   color: #00695c;
 }
+
+router-outlet {
+  position: absolute;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #00695c;
+  height: 150px;
+  text-align: center;
+}
+
+footer > h3, footer > p {
+  margin-left: 60px;
+  color: white;
+}
+
+footer > h3 {
+  margin-top: 53px;
+}
