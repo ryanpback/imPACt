@@ -1,0 +1,17 @@
+a {
+  color: #00695c;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color: #fff;
+  background-color: #00695c;
+}
+
+.nav-tabs>li>a:hover, .nav-tabs>li>a:focus, .nav-tabs>li>a:active {
+  background-color: rgba(0, 105, 91, 0.6);
+  color:#fff;
+}
+
+.nav-tabs.nav-justified>li>a {
+  border-bottom: 1px solid #00695c;
+}

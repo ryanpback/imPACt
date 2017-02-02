@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+#body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+p {
+  font-size: 20px;
+}

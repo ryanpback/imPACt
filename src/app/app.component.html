@@ -1,14 +1,6 @@
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a href="#" (click)="getComponent('home')"class="navbar-brand">imPACt</a>
-    </div>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#" (click)="getComponent('search')">Search</a></li>
-      <li><a href="#" (click)="getComponent('about')">About</a></li>
-    </ul>
-  </div>
-</nav>
 <div class="container">
+  <div class="jumbotron">
+    <h1 class="text-center">{{title}}</h1>
+  </div>
   <router-outlet></router-outlet>
 </div>

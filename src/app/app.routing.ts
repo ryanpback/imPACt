@@ -4,6 +4,8 @@ import { CandidateDetailsComponent } from './candidate-details/candidate-details
 import { OverviewComponent} from './overview/overview.component';
 import { AboutComponent} from './about/about.component';
 import { SearchComponent } from './search/search.component';
+import { ContributorDetailsComponent } from './contributor-details/contributor-details.component'
+import { OfficeDetailsComponent } from './office-details/office-details.component';
 
 const appRoutes: Routes = [
   {
@@ -21,6 +23,14 @@ const appRoutes: Routes = [
   {
     path: 'search',
     component: SearchComponent
+  },
+  {
+    path: 'contributors/:id',
+    component: ContributorDetailsComponent
+  },
+  {
+    path: 'offices/:id/:year',
+    component: OfficeDetailsComponent
   }
 ]
 

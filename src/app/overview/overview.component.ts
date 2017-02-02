@@ -31,6 +31,16 @@ export class OverviewComponent implements OnInit {
     }
   }
 
+  isOffice(level) {
+    if(level === "officeSought") {
+      return "active"
+    }
+    else {
+      return ""
+    }
+  }
+
+
   ngOnInit() {
   }
 

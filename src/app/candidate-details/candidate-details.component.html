@@ -1,3 +1,5 @@
+<p class="link" (click)="goBack()"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Go back</p>
+
 <div *ngFor="let candidate of candidates">
   <h1 class="text-center">{{candidate.Candidate.Candidate | titlecase}}</h1>
   <h3 class="text-center">Top Contributors</h3>
@@ -9,17 +11,12 @@
     <th>Total</th>
   </tr>
   <tr *ngFor="let contributor of contributors | slice:0:10">
-    <td>{{contributor.Contributor.Contributor | titlecase}}</td>
+    <td class="link" (click)='goToContributor(contributor)'>{{contributor.Contributor.Contributor | titlecase}}</td>
     <td>{{contributor.Type_of_Contributor.Type_of_Contributor}}</td>
     <td>{{contributor.Total_$.Total_$ | currency:'USD':true}}</td>
   </tr>
 </table>
 <div *ngIf="!contributors">
-  <h2>
-    Loading
-    <span class="load1">.</span>
-    <span class="load2">.</span>
-    <span class="load3">.</span>
-  </h2>
+  <app-loading></app-loading>
 </div>
 <app-result-visuals [childCandidateId]="candidateId"></app-result-visuals>
