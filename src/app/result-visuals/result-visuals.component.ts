@@ -26,15 +26,13 @@ export class ResultVisualsComponent implements OnInit {
                       .append('g')
                       .attr('transform', 'translate(' + (this.width / 2) + ',' + (this.height / 2) + ')');
     let arc = d3.arc().innerRadius(0).outerRadius(this.radius);
-    console.log(arc)
     d3.json('http://api.followthemoney.org/?p=0&c-t-id=' + this.childCandidateId + '&y=2016&c-exi=1&gro=d-eid&APIKey=' + this.searchService.apiKey + '&mode=json', function(data) {
-      let records = data.records
+      let records = data.records;
       let topTen = [];
       let dataset = ['#1f77b4', '#aec7e8', '#ffbb78', "#2ca02c", "#98df8a", "#d62728", "#ff9896", "#9467bd", "#c5b0d58"]
       for (var i = 0; i < 10; i++) {
         topTen.push({label: dataset[i], count: parseInt(records[i].Total_$.Total_$)});
       }
-      console.log(topTen);
       var pie = d3.pie().value(function(d: any) {
         return d.count;
       })
@@ -45,7 +43,7 @@ export class ResultVisualsComponent implements OnInit {
                     .append('path')
                     .attr('d', <any>arc)
                     .attr('fill', function(d: any) {
-                      console.log(d)
+                      // console.log(d)
                       return color(d.data.label)
                     });
       })

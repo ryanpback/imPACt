@@ -16,6 +16,7 @@ import { OfficePipe } from './office.pipe';
 import { routing } from './app.routing';
 import { TitlecasePipe } from './titlecase.pipe';
 import { ResultVisualsComponent } from './result-visuals/result-visuals.component';
+import { BarGraphComponent } from './bar-graph/bar-graph.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { ResultVisualsComponent } from './result-visuals/result-visuals.componen
     OverviewComponent,
     OfficePipe,
     TitlecasePipe,
-    ResultVisualsComponent
+    ResultVisualsComponent,
+    BarGraphComponent
   ],
   imports: [
     BrowserModule,
