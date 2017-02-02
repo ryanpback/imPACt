@@ -18,3 +18,7 @@
   width: 80px;
   z-index: 10;
 }
+
+.label {
+  color: #333;
+}

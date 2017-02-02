@@ -22,7 +22,7 @@ export class BarGraphComponent implements OnInit {
               .padding(0.1);
     var y = d3.scaleLinear()
               .range([height, 0]);
-    var svg = d3.select("body").append("svg")
+    var svg = d3.select(".bar-chart").append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
       .append("g")
@@ -31,7 +31,7 @@ export class BarGraphComponent implements OnInit {
       d3.json('http://api.followthemoney.org/?p=0&c-t-id=' + this.childCanId + '&y=2016&c-exi=1&gro=d-eid&APIKey=' + this.searchService.apiKey + '&mode=json', function(data) {
         let records = data.records
         let topTenContributors = [];
-        for(var i = 0; i < 10; i++) {
+        for(var i = 0; i < 5; i++) {
           topTenContributors.push([records[i].Contributor.Contributor, parseInt(records[i].Total_$.Total_$)]);
           }
           console.log(topTenContributors);
