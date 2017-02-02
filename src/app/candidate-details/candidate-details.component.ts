@@ -14,6 +14,7 @@ export class CandidateDetailsComponent implements OnInit {
   candidateId: string;
   candidates;
   contributors: Object[];
+  currentRoute: string = this.router.url;
 
   constructor(private route: ActivatedRoute, private location: Location, private searchService: SearchService, private router: Router) { }
 
@@ -22,6 +23,7 @@ export class CandidateDetailsComponent implements OnInit {
   }
 
   ngOnInit() {
+    console.log(this.router.url);
     this.route.params.forEach((urlParameters) => {
       this.candidateId = urlParameters['id'];
     })

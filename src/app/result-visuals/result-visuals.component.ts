@@ -27,18 +27,21 @@ export class ResultVisualsComponent implements OnInit {
                       .append('g')
                       .attr('transform', 'translate(' + (this.width / 2) + ',' + (this.height / 2) + ')');
 
+    var arc = d3.arc().innerRadius(this.radius - this.donutWidth).outerRadius(this.radius);
+
     var tooltip = d3.select('#chart')
                     .append('div')
                     .attr('class', 'tooltip');
     tooltip.append('div')
+      .attr('class', 'contributor')
+    tooltip.append('div')
       .attr('class', 'amount')
     tooltip.append('div')
       .attr('class', 'percent')
-    let arc = d3.arc().innerRadius(this.radius - this.donutWidth).outerRadius(this.radius);
     d3.json('http://api.followthemoney.org/?p=0&c-t-id=' + this.childCandidateId + '&y=2016&c-exi=1&gro=d-eid&APIKey=' + this.searchService.apiKey + '&mode=json', function(data) {
       let records = data.records;
       let topTen = [];
-      let dataset = ['#1f77b4', '#aec7e8', '#ffbb78', "#2ca02c", "#98df8a", "#d62728", "#ff9896", "#9467bd", "#c5b0d58"]
+      let dataset = ['#1f77b4', '#aec7e8', '#ffbb78', "#2ca02c", "#98df8a", "#d62728", "#ff9896", "#9467bd", "#c5b0d58"];
       for (var i = 0; i < 10; i++) {
         topTen.push({label: dataset[i], contributor: records[i].Contributor.Contributor, amount: parseInt(records[i].Total_$.Total_$)});
       }
@@ -57,21 +60,24 @@ export class ResultVisualsComponent implements OnInit {
 
       path.on('mouseover', function(d: any) {
         var total = d3.sum(topTen.map(function(d){
-          console.log(d)
           return d.amount;
         }));
+
       var percent = Math.round(1000 * d.amount / total) / 10;
-      tooltip.select('.amount').html(d.contributor);
+      tooltip.select('.contributor').html(d.contributor);
+      tooltip.select('.amount').html(d.amount);
       tooltip.select('.percent').html(percent + '%');
       tooltip.style('display', 'block');
       });
+
       path.on('mouseout', function() {
         tooltip.style('display', 'none')
       });
+
       path.on('mousemove', function(d) {
         tooltip.style('top', (d3.event.layerY + 10) + 'px')
               .style('left', (d3.event.layerX + 10) + 'px')
-      })
+            })
       })
     }
   }
