@@ -13,7 +13,7 @@ export class SearchService {
 
   private extractData(res: Response) {
     let body = res.json();
-    // console.log(body.records);
+    console.log(body.records);
     return body.records || { };
   }
 
