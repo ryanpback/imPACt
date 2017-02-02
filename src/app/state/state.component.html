@@ -53,7 +53,7 @@
     <option value="wy">Wyoming</option>
   </select>
 
-  <select (change)="onChange($event.target.value)">
+  <select *ngIf="hasState" (change)="onChange($event.target.value)">
     <option disabled>Sort by office</option>
     <option value="all">View All</option>
     <option value="senate">Senate</option>
@@ -62,7 +62,7 @@
     <option value="other">Other</option>
   </select>
 
-  <select (change)=yearSelection($event.target.value)>
+  <select *ngIf="hasState" (change)=yearSelection($event.target.value)>
     <option disabled>Sort by Year</option>
     <option value="2016" selected>2016</option>
     <option value="2015">2015</option>
@@ -71,6 +71,15 @@
     <option value="2012">2012</option>
     <option value="2011">2011</option>
   </select>
+
+  <select *ngIf="hasState" (change)=partySelection($event.target.value)>
+    <option disabled>Sort by Party</option>
+    <option value="all">All</option>
+    <option value="Democratic">Democratic</option>
+    <option value="Republican">Republican</option>
+    <option value="other">Third Party</option>
+  </select>
+
 
 <div *ngIf="hasCandidates">
   <hr>
@@ -84,10 +93,14 @@
         <th>Year</th>
         <th>Total Raised</th>
       </tr>
-      <tr *ngFor="let candidate of candidates | office:selectedOffice">
+      <tr *ngFor="let candidate of candidates | office:selectedOffice | party:partyChoice">
         <td class="link" (click)="goToCandidate(candidate)">{{candidate.Candidate.Candidate | titlecase}}</td>
-        <td>{{candidate.General_Party.General_Party}}</td>
-        <td class="link" (click)="goToOffice(candidate)">{{(candidate.Office_Sought.Office_Sought | titlecase).replace('Us', 'US')}}</td>
+        <td>{{candidate.General_Party.General_Party}}
+          <span *ngIf="candidate.General_Party.General_Party === 'Third-Party'">
+            ({{candidate.Specific_Party.Specific_Party | titlecase}})
+          </span>
+        </td>
+        <td class="link" (click)="goToOffice(candidate, year)">{{(candidate.Office_Sought.Office_Sought | titlecase).replace('Us', 'US')}}</td>
         <td>{{candidate.Election_Status.Election_Status.replace('-', ' ')}}</td>
         <td>{{candidate.Election_Year.Election_Year}}</td>
         <td>{{candidate.Total_$.Total_$ | currency:'USD':true}}</td>

@@ -3,6 +3,8 @@ import { SearchService } from '../search.service';
 import { OfficePipe } from '../office.pipe';
 import { Router } from '@angular/router';
 import { TitlecasePipe } from '../titlecase.pipe'
+import { PartyPipe } from '../party.pipe';
+
 
 @Component({
   selector: 'app-state',
@@ -17,6 +19,7 @@ export class StateComponent implements OnInit {
   hasCandidates: boolean = false;
   selectedOffice: string;
   year:string = this.searchService.getYear();
+  partyChoice: string = 'all';
 
   constructor(private searchService: SearchService, private router: Router) { }
 
@@ -50,13 +53,17 @@ export class StateComponent implements OnInit {
     this.router.navigate(['candidates', candidate.Candidate.id]);
   }
 
-  goToOffice(candidate) {
-    this.router.navigate(['offices', candidate.Office_Sought.id])
+  goToOffice(candidate, year) {
+    this.router.navigate(['offices', candidate.Office_Sought.id, year])
   }
 
   yearSelection(year) {
     this.year = year;
     this.searchService.getResults(this.selectedState, this.year).subscribe(res => this.candidates = res);
+  }
+
+  partySelection(choice) {
+    this.partyChoice = choice;
   }
 
 }
