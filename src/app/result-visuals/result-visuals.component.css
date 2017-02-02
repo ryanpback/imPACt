@@ -22,3 +22,22 @@
 .label {
   color: #333;
 }
+
+.chart-container {
+  width: 100% !important;
+}
+
+.header {
+  font-family: inherit;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.small {
+  font-size: 14px;
+}
+
+svg:not(:root) {
+  overflow: visible !important;
+}

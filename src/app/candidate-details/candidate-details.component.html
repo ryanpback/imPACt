@@ -19,7 +19,6 @@
 <div *ngIf="!contributors">
   <app-loading></app-loading>
 </div>
-<div *ngIf="currentRoute === '/candidates/' + candidateId">
-  <app-result-visuals [childCandidateId]="candidateId"></app-result-visuals>
-  <!-- <app-bar-graph [childCanId]="candidateId"></app-bar-graph> -->
+<div *ngIf="contributors">
+  <app-result-visuals [contributors]='contributors'></app-result-visuals>
 </div>

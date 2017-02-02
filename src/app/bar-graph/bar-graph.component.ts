@@ -31,7 +31,7 @@ export class BarGraphComponent implements OnInit {
               "translate(" + margin.left + "," + margin.top + ")");
 
         let dataset = ['#1f77b4', '#aec7e8', '#ffbb78', "#2ca02c", "#98df8a", "#d62728", "#ff9896", "#9467bd", "#c5b0d58"];
-        let records = this.candidates.slice(0,5)
+        let records = this.candidates.slice(0,8)
         let topTenContributors = [];
 
         records.forEach(function(record: any, index) {
