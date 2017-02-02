@@ -35,7 +35,7 @@ export class BarGraphComponent implements OnInit {
         let topTenContributors = [];
 
         records.forEach(function(record: any, index) {
-          topTenContributors.push({candidate: record.Candidate.Candidate, amount: parseInt(record.Total_$.Total_$), label: dataset[index]});
+          topTenContributors.push({candidate: record.Candidate.Candidate.split('&'), amount: parseInt(record.Total_$.Total_$), label: dataset[index]});
         })
           x.domain(topTenContributors.map(function(d: any) {
             return d.candidate;
@@ -52,7 +52,7 @@ export class BarGraphComponent implements OnInit {
              return d.label;
            })
            .attr("width", x.bandwidth())
-            .attr("x", function(d) { return x(d.contributor); })
+            .attr("x", function(d) { return x(d.candidate); })
             .attr("y", height)
             .attr("height", 0).transition()
             .duration(2500).delay(function (d, i) { return i*100; })
