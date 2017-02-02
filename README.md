@@ -1,31 +1,40 @@
-# ImPACt
+# HackTeam
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.26.
+_This application was created during team week 2 in Angular and D3 as a tool to visually representing campaign finance data_
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+_**Andrew Accuardi, Lucas Keysboe, Ryan Back, Matt Eichsteadt**_
 
-## Code scaffolding
+## Description
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+* _As a user, I'd like to search by each electoral race, year, and party_
+* _As a user, I'd like to see details about each candidate_
+* _As a user, I'd like to see who each contributor has backed in the past_
+* _As a user, I'd like this data to be represented with stunning visuals._
 
-## Build
+## Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+You will need the following things properly installed on your computer.
 
-## Running unit tests
+* [Git](http://git-scm.com/)
+* [Node.js](http://nodejs.org/) (with NPM)
+* [Bower](http://bower.io/)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Installation
 
-## Running end-to-end tests
+* `git clone https://github.com/accua/meal-tracker`
+* `npm install`
+* `bower install`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+## Running / Development
 
-## Deploying to GitHub Pages
+* `ng serve` and navigate to `localhost:4200` in your browser
 
-Run `ng github-pages:deploy` to deploy to GitHub Pages.
+## Technologies Used
 
-## Further help
+_This webpage was made using HTML, CSS, Typescript, Bootstrap, D3 and Angular2._
 
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### License
+
+Copyright (c) 2017 _Andrew Accuardi, Lucas Keysboe, Ryan Back, Matt Eichsteadt_
+
+*Licensed under the GPL License*
