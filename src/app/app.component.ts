@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+declare var d3pie: any;
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

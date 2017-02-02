@@ -29,9 +29,9 @@ export class CandidateDetailsComponent implements OnInit {
         this.topThree.push(contribAmount[i]);
       }
       this.topThree.forEach(contributor => {
-        console.log(contributor.Total_$);
+        // console.log(contributor.Total_$);
       });
     });
-    console.log(this.topThree);
+    // console.log(this.topThree);
   }
 }
