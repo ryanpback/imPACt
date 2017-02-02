@@ -85,14 +85,10 @@ export class ResultVisualsComponent implements OnInit {
                 }, 1000);
 
       path.on('mouseover', function(d: any) {
-<<<<<<< HEAD
-
-=======
         var total = d3.sum(topTen.map(function(d){
             return d.amount;
         }));
         let percent = Math.round(1000 * d.data.amount / total) / 10;
->>>>>>> rL
         tooltip.select('.contributor').html(d.data.contributor);
         tooltip.select('.amount').html('$ ' + d.data.amount);
         tooltip.style('display', 'block');

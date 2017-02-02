@@ -23,7 +23,6 @@ export class CandidateDetailsComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log(this.router.url);
     this.route.params.forEach((urlParameters) => {
       this.candidateId = urlParameters['id'];
     })

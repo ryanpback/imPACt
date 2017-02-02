@@ -19,7 +19,6 @@ export class OfficeDetailsComponent implements OnInit {
   constructor(private route: ActivatedRoute, private location: Location, private searchService: SearchService, private router: Router) { }
 
   ngOnInit() {
-    console.log(this.candidates)
     this.route.params.forEach((urlParameters) => {
       this.officeId = urlParameters['id'];
       this.year = urlParameters['year'];
