@@ -15,7 +15,7 @@ export class BarGraphComponent implements OnInit {
   ngOnInit() {
 
     var margin = {top: 20, right: 80, bottom: 30, left: 90},
-    width = 1260 - margin.left - margin.right,
+    width = 1250 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
     var x = d3.scaleBand()
               .range([0, width])
@@ -34,8 +34,8 @@ export class BarGraphComponent implements OnInit {
         let dataset = ['#1f77b4', '#aec7e8', '#ffbb78', "#2ca02c", "#98df8a", "#d62728", "#ff9896", "#9467bd", "#c5b0d58"];
         let records = data.records
         let topTenContributors = [];
-        for(var i = 0; i < 10; i++) {
-          topTenContributors.push({contributor: records[i].Contributor.Contributor, amount: parseInt(records[i].Total_$.Total_$), label: dataset[i]});
+        for(var i = 0; i < 8; i++) {
+          topTenContributors.push({contributor: records[i].Contributor.Contributor.split('&')[0], amount: parseInt(records[i].Total_$.Total_$), label: dataset[i]});
 
           }
 
@@ -53,8 +53,11 @@ export class BarGraphComponent implements OnInit {
            .style("fill", function(d) {
              return d.label;
            })
-            .attr("x", function(d) { return x(d.contributor); }).transition().duration(2500)
-            .attr("width", x.bandwidth())
+           .attr("width", x.bandwidth())
+            .attr("x", function(d) { return x(d.contributor); })
+            .attr("y", height)
+            .attr("height", 0).transition()
+            .duration(2500).delay(function (d, i) { return i*100; })
             .attr("y", function(d) { return y(d.amount); })
             .attr("height", function(d) { return height - y(d.amount);});
 

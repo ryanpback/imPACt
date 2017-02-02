@@ -64,7 +64,7 @@ export class ResultVisualsComponent implements OnInit {
             return d.amount;
         }));
         let percent = Math.round(1000 * d.data.amount / total) / 10;
-        tooltip.select('.label').html(d.data.contributor);
+        tooltip.select('.contributor').html(d.data.contributor);
         tooltip.select('.amount').html('$ ' + d.data.amount);
         tooltip.select('.percent').html(percent + '%');
         tooltip.style('display', 'block');
