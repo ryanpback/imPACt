@@ -9,11 +9,10 @@ import * as d3 from 'd3';
   providers: [SearchService]
 })
 export class BarGraphComponent implements OnInit {
-  @Input() childCanId;
+  @Input() candidates: Object[];
   constructor(private searchService: SearchService, private elementRef: ElementRef) { }
 
   ngOnInit() {
-
     var margin = {top: 20, right: 80, bottom: 30, left: 90},
     width = 1260 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
@@ -30,17 +29,16 @@ export class BarGraphComponent implements OnInit {
       .append("g")
         .attr("transform",
               "translate(" + margin.left + "," + margin.top + ")");
-      d3.json('http://api.followthemoney.org/?p=0&c-t-id=' + this.childCanId + '&y=2016&c-exi=1&gro=d-eid&APIKey=' + this.searchService.apiKey + '&mode=json', function(data) {
+
         let dataset = ['#1f77b4', '#aec7e8', '#ffbb78', "#2ca02c", "#98df8a", "#d62728", "#ff9896", "#9467bd", "#c5b0d58"];
-        let records = data.records
+        let records = this.candidates.slice(0,5)
         let topTenContributors = [];
-        for(var i = 0; i < 10; i++) {
-          topTenContributors.push({contributor: records[i].Contributor.Contributor, amount: parseInt(records[i].Total_$.Total_$), label: dataset[i]});
 
-          }
-
+        records.forEach(function(record: any, index) {
+          topTenContributors.push({candidate: record.Candidate.Candidate, amount: parseInt(record.Total_$.Total_$), label: dataset[index]});
+        })
           x.domain(topTenContributors.map(function(d: any) {
-            return d.contributor;
+            return d.candidate;
           }));
           y.domain([0, d3.max(topTenContributors, function(d) {
             return d.amount;
@@ -53,7 +51,7 @@ export class BarGraphComponent implements OnInit {
            .style("fill", function(d) {
              return d.label;
            })
-            .attr("x", function(d) { return x(d.contributor); }).transition().duration(2500)
+            .attr("x", function(d) { return x(d.candidate); }).transition().duration(2500)
             .attr("width", x.bandwidth())
             .attr("y", function(d) { return y(d.amount); })
             .attr("height", function(d) { return height - y(d.amount);});
@@ -64,7 +62,6 @@ export class BarGraphComponent implements OnInit {
 
         svg.append("g")
             .call(d3.axisLeft(y));
-    })
 
   }
 }

@@ -24,6 +24,9 @@
     <td>{{candidate.Total_$.Total_$ | currency:'USD':true}}</td>
   </tr>
 </table>
+<div *ngIf="candidates">
+  <app-bar-graph [candidates]="candidates"></app-bar-graph>
+</div>
 <div *ngIf="!candidates">
   <app-loading></app-loading>
 </div>
