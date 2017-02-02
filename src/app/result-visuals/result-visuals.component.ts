@@ -38,6 +38,7 @@ export class ResultVisualsComponent implements OnInit {
       .attr('class', 'amount')
     tooltip.append('div')
       .attr('class', 'percent')
+
     d3.json('http://api.followthemoney.org/?p=0&c-t-id=' + this.childCandidateId + '&y=2016&c-exi=1&gro=d-eid&APIKey=' + this.searchService.apiKey + '&mode=json', function(data) {
       let records = data.records;
       let topTen = [];
@@ -60,14 +61,17 @@ export class ResultVisualsComponent implements OnInit {
 
       path.on('mouseover', function(d: any) {
         var total = d3.sum(topTen.map(function(d){
-          return d.amount;
+            return d.amount;
         }));
-
-      var percent = Math.round(1000 * d.amount / total) / 10;
-      tooltip.select('.contributor').html(d.contributor);
-      tooltip.select('.amount').html(d.amount);
-      tooltip.select('.percent').html(percent + '%');
-      tooltip.style('display', 'block');
+        let percent = Math.round(1000 * d.data.amount / total) / 10;
+        tooltip.select('.label').html(d.data.contributor);
+        tooltip.select('.amount').html('$ ' + d.data.amount);
+        tooltip.select('.percent').html(percent + '%');
+        tooltip.style('display', 'block');
+        tooltip.style('opacity', 1);
+        tooltip.style('background-color', 'rgba(255,255,255,.9)');
+        tooltip.style('padding', '4px');
+        tooltip.select('.label').style('color', '#333');
       });
 
       path.on('mouseout', function() {

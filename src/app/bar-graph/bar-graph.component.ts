@@ -22,7 +22,9 @@ export class BarGraphComponent implements OnInit {
               .padding(0.1);
     var y = d3.scaleLinear()
               .range([height, 0]);
-    var svg = d3.select("#chart").append("svg")
+
+    var svg = d3.select(".bar-chart").append("svg")
+
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
       .append("g")
@@ -34,6 +36,7 @@ export class BarGraphComponent implements OnInit {
         let topTenContributors = [];
         for(var i = 0; i < 10; i++) {
           topTenContributors.push({contributor: records[i].Contributor.Contributor, amount: parseInt(records[i].Total_$.Total_$), label: dataset[i]});
+
           }
 
           x.domain(topTenContributors.map(function(d: any) {

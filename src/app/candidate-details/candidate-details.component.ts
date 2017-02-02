@@ -35,3 +35,5 @@ export class CandidateDetailsComponent implements OnInit {
     this.router.navigate(['contributors', contributor.Contributor.id])
   }
 }
+
+andrew
