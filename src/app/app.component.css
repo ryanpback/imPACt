@@ -21,3 +21,7 @@ footer > p {
   color: white;
   font-size: 14px;
 }
+
+h1:hover {
+  cursor: pointer;
+}
