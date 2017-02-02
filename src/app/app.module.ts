@@ -37,7 +37,7 @@ import { LoadingComponent } from './loading/loading.component';
     OverviewComponent,
     OfficePipe,
     TitlecasePipe,
-    ResultVisualsComponent
+    ResultVisualsComponent,
     PartyPipe,
     ContributorDetailsComponent,
     OfficeComponent,
