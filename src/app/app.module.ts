@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { ApiComponent } from './api/api.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
-import { SearchComponent } from './search/search.component';
 import { CandidateDetailsComponent } from './candidate-details/candidate-details.component';
 import { FederalComponent } from './federal/federal.component';
 import { StateComponent } from './state/state.component';
@@ -21,6 +20,7 @@ import { ContributorDetailsComponent } from './contributor-details/contributor-d
 import { OfficeComponent } from './office/office.component';
 import { OfficeDetailsComponent } from './office-details/office-details.component';
 import { LoadingComponent } from './loading/loading.component';
+import { BarGraphComponent } from './bar-graph/bar-graph.component';
 
 
 
@@ -30,7 +30,6 @@ import { LoadingComponent } from './loading/loading.component';
     ApiComponent,
     AboutComponent,
     HomeComponent,
-    SearchComponent,
     CandidateDetailsComponent,
     FederalComponent,
     StateComponent,
@@ -43,7 +42,8 @@ import { LoadingComponent } from './loading/loading.component';
     OfficeComponent,
     OfficeDetailsComponent,
     OfficeDetailsComponent,
-    LoadingComponent
+    LoadingComponent,
+    BarGraphComponent
   ],
   imports: [
     BrowserModule,
