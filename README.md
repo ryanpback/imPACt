@@ -6,9 +6,9 @@ _**Andrew Accuardi, Lucas Keysboe, Ryan Back, Matt Eichsteadt**_
 
 ## Description
 
-* _As a user, I'd like to search by each electoral race, year, and party_
-* _As a user, I'd like to see details about each candidate_
-* _As a user, I'd like to see who each contributor has backed in the past_
+* _As a user, I'd like to search by each electoral race, year, and party._
+* _As a user, I'd like to see details about each candidate._
+* _As a user, I'd like to see who each contributor has backed in the past._
 * _As a user, I'd like this data to be represented with stunning visuals._
 
 ## Prerequisites
@@ -21,7 +21,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone https://github.com/accua/meal-tracker`
+* `git clone https://github.com/accua/imPACt`
 * `npm install`
 * `bower install`
 
