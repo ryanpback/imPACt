@@ -1,3 +1,7 @@
 .table-striped>tbody>tr:nth-of-type(odd) {
   background-color: #fff3e0;
 }
+
+.container {
+  margin-bottom: 50px;
+}
