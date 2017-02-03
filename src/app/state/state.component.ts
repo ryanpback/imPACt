@@ -29,6 +29,9 @@ export class StateComponent implements OnInit {
         this.hasCandidates = true;
       }
     }
+    else {
+      this.hasCandidates = false;
+    }
   }
 
   ngOnInit() {
@@ -59,6 +62,7 @@ export class StateComponent implements OnInit {
 
   yearSelection(year) {
     this.year = year;
+    this.hasCandidates = false;
     this.searchService.getResults(this.selectedState, this.year).subscribe(res => this.candidates = res);
   }
 
