@@ -25,3 +25,7 @@ footer > p {
 h1:hover {
   cursor: pointer;
 }
+
+.container {
+  margin-bottom: 100px;
+}

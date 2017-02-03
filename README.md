@@ -29,6 +29,9 @@ You will need the following things properly installed on your computer.
 
 * `ng serve` and navigate to `localhost:4200` in your browser
 
+## Known Bugs
+* Crashes on 'Search Year' on State section when you have no results for that search
+
 ## Technologies Used
 
 _This webpage was made using HTML, CSS, Typescript, Bootstrap, D3 and Angular2._

@@ -29,6 +29,9 @@ export class OfficeComponent implements OnInit {
         this.hasOffices = true;
       }
     }
+    else {
+      this.hasOffices = false;
+    }
   }
 
   onChange(userChoice) {
