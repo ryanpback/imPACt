@@ -1,13 +1,14 @@
 import { Injectable } from '@angular/core';
 import { Http, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
+import { environment } from '../environments/environment';
 import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/map';
 
 @Injectable()
 export class SearchService {
   year: string = '2016';
-  apiKey = "ad4ec64891c87fb4e5410a42ef340816"
+  private apiKey = environment.apiKey;
 
   constructor(private http: Http) { }
 
